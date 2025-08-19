@@ -1,11 +1,11 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth.decorators import login_required
-from django.contrib.auth import login
-from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth import logout
 from django.contrib import messages
 from django.http import JsonResponse
 from django.utils import timezone
 from django.views.decorators.csrf import csrf_exempt
+from django.views.decorators.http import require_http_methods
 from django.core.paginator import Paginator
 import zoneinfo
 from .models import Script, ScriptRun, Vacancy, VacancyRun
@@ -26,25 +26,14 @@ def get_user_scripts_context(request):
     return {}
 
 
-def register_view(request):
-    """Регистрация нового пользователя"""
-    if request.method == 'POST':
-        form = UserCreationForm(request.POST)
-        if form.is_valid():
-            user = form.save()
-            # Создаем скрипт по умолчанию для нового пользователя
-            Script.objects.create(
-                name='Парсер Инженер по охране труда',
-                description='Парсинг вакансий "Инженер по охране труда" с hh.ru',
-                search_query='Инженер по охране труда',
-                created_by=user
-            )
-            login(request, user)
-            messages.success(request, 'Регистрация успешно завершена!')
-            return redirect('home')
-    else:
-        form = UserCreationForm()
-    return render(request, 'registration/register.html', {'form': form})
+@require_http_methods(["GET", "POST"])
+def logout_view(request):
+    """Выход из системы"""
+    logout(request)
+    messages.success(request, 'Вы успешно вышли из системы.')
+    return redirect('login')
+
+
 
 
 @login_required

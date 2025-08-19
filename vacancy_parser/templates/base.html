@@ -109,6 +109,22 @@
             color: white;
         }
         
+        /* Logout button styles */
+        .dropdown-item.text-danger:hover {
+            background: var(--danger-color) !important;
+            color: white !important;
+        }
+        
+        .dropdown-item button {
+            font-size: inherit;
+            font-family: inherit;
+            cursor: pointer;
+        }
+        
+        .dropdown-item button:hover {
+            color: white !important;
+        }
+        
         /* Card Styles */
         .card {
             border: none;
@@ -234,6 +250,12 @@
             padding: 2rem 1rem;
         }
         
+        /* Login page specific styles */
+        .login-page .main-container {
+            padding: 0;
+            max-width: none;
+        }
+        
         /* Animations */
         @keyframes fadeIn {
             from {
@@ -337,8 +359,17 @@
                             </li>
                             <li><hr class="dropdown-divider"></li>
                             <li>
-                                <a class="dropdown-item text-danger" href="{% url 'logout' %}">
-                                    <i class="fas fa-sign-out-alt me-2"></i>Выйти из системы
+                                <form method="post" action="{% url 'logout' %}" style="margin: 0;" onsubmit="return true;">
+                                    {% csrf_token %}
+                                    <button type="submit" class="dropdown-item text-danger" style="border: none; background: none; width: 100%; text-align: left; cursor: pointer;">
+                                        <i class="fas fa-sign-out-alt me-2"></i>Выйти из системы
+                                    </button>
+                                </form>
+                            </li>
+                            <li style="display: none;">
+                                <!-- Запасная ссылка на случай проблем с формой -->
+                                <a class="dropdown-item text-danger" href="{% url 'logout' %}" onclick="return confirm('Вы уверены, что хотите выйти?')">
+                                    <i class="fas fa-sign-out-alt me-2"></i>Выйти (ссылка)
                                 </a>
                             </li>
                         </ul>
@@ -347,11 +378,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{% url 'login' %}">
                             <i class="fas fa-sign-in-alt me-1"></i>Войти
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'register' %}">
-                            <i class="fas fa-user-plus me-1"></i>Регистрация
                         </a>
                     </li>
                     {% endif %}
