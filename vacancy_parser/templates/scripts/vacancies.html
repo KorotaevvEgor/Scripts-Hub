@@ -1,0 +1,222 @@
+{% extends 'base.html' %}
+
+{% block title %}Вакансии - {{ script_run.script.name }} - {{ block.super }}{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">
+        <i class="fas fa-briefcase me-2"></i>Вакансии
+        <small class="text-muted">{{ script_run.script.name }}</small>
+    </h1>
+    <div class="btn-toolbar mb-2 mb-md-0">
+        <a href="{% url 'scripts:detail' script_run.script.id %}" class="btn btn-outline-secondary">
+            <i class="fas fa-arrow-left me-1"></i>Назад к скрипту
+        </a>
+    </div>
+</div>
+
+<!-- Информация о запуске -->
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="row text-center">
+                    <div class="col-md-3">
+                        <h4 class="text-primary">{{ script_run.total_found }}</h4>
+                        <small class="text-muted">Всего найдено</small>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="text-success">{{ script_run.new_vacancies }}</h4>
+                        <small class="text-muted">Новых вакансий</small>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="text-info">{{ script_run.existing_vacancies }}</h4>
+                        <small class="text-muted">Существующих</small>
+                    </div>
+                    <div class="col-md-3">
+                        <small class="text-muted">Запуск от</small>
+                        <div>{{ script_run.started_at|date:"d.m.Y H:i" }}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Фильтры -->
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="btn-group" role="group">
+                    <a href="{% url 'scripts:vacancies' script_run.id %}" 
+                       class="btn {% if current_filter == 'all' %}btn-primary{% else %}btn-outline-primary{% endif %}">
+                        <i class="fas fa-list me-1"></i>Все ({{ script_run.total_found }})
+                    </a>
+                    <a href="{% url 'scripts:vacancies' script_run.id %}?filter=new" 
+                       class="btn {% if current_filter == 'new' %}btn-success{% else %}btn-outline-success{% endif %}">
+                        <i class="fas fa-plus-circle me-1"></i>Новые ({{ script_run.new_vacancies }})
+                    </a>
+                    <a href="{% url 'scripts:vacancies' script_run.id %}?filter=existing" 
+                       class="btn {% if current_filter == 'existing' %}btn-info{% else %}btn-outline-info{% endif %}">
+                        <i class="fas fa-clock me-1"></i>Существующие ({{ script_run.existing_vacancies }})
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Список вакансий -->
+<div class="row">
+    <div class="col-12">
+        {% if page_obj.object_list %}
+        {% for vacancy_run in page_obj.object_list %}
+        <div class="card mb-3 vacancy-card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h5 class="card-title">
+                            <a href="{{ vacancy_run.vacancy.url }}" target="_blank" class="text-decoration-none">
+                                {{ vacancy_run.vacancy.title }}
+                                <i class="fas fa-external-link-alt fa-sm ms-1"></i>
+                            </a>
+                            {% if vacancy_run.is_new_in_run %}
+                            <span class="badge bg-success ms-2">НОВАЯ</span>
+                            {% endif %}
+                        </h5>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                            <i class="fas fa-building me-1"></i>{{ vacancy_run.vacancy.company }}
+                        </h6>
+                        <p class="card-text">
+                            <i class="fas fa-money-bill-wave me-1 text-success"></i>
+                            <strong>{{ vacancy_run.vacancy.salary }}</strong>
+                        </p>
+                        {% if vacancy_run.vacancy.published_at %}
+                        <p class="card-text">
+                            <small class="text-muted">
+                                <i class="fas fa-calendar me-1"></i>
+                                Опубликована: {{ vacancy_run.vacancy.published_at|date:"d.m.Y H:i" }}
+                            </small>
+                        </p>
+                        {% endif %}
+                    </div>
+                    <div class="col-md-4 text-end">
+                        <a href="{{ vacancy_run.vacancy.url }}" target="_blank" class="btn btn-primary">
+                            <i class="fas fa-eye me-1"></i>Просмотреть
+                        </a>
+                        <p class="mt-3">
+                            <small class="text-muted">
+                                <i class="fas fa-plus me-1"></i>
+                                Найдена в запуске: {{ vacancy_run.found_at|date:"d.m.Y H:i" }}
+                            </small>
+                            <br>
+                            <small class="text-muted">
+                                <i class="fas fa-eye me-1"></i>
+                                Найдена {{ vacancy_run.vacancy.times_found }} раз(а)
+                            </small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+        
+        <!-- Пагинация -->
+        {% if page_obj.has_other_pages %}
+        <nav aria-label="Навигация по страницам">
+            <ul class="pagination justify-content-center">
+                {% if page_obj.has_previous %}
+                    <li class="page-item">
+                        <a class="page-link" href="?page=1{% if current_filter != 'all' %}&filter={{ current_filter }}{% endif %}">
+                            <i class="fas fa-angle-double-left"></i>
+                        </a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="?page={{ page_obj.previous_page_number }}{% if current_filter != 'all' %}&filter={{ current_filter }}{% endif %}">
+                            <i class="fas fa-angle-left"></i>
+                        </a>
+                    </li>
+                {% endif %}
+                
+                {% for num in page_obj.paginator.page_range %}
+                    {% if page_obj.number == num %}
+                        <li class="page-item active">
+                            <span class="page-link">{{ num }}</span>
+                        </li>
+                    {% elif num > page_obj.number|add:'-3' and num < page_obj.number|add:'3' %}
+                        <li class="page-item">
+                            <a class="page-link" href="?page={{ num }}{% if current_filter != 'all' %}&filter={{ current_filter }}{% endif %}">{{ num }}</a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+                
+                {% if page_obj.has_next %}
+                    <li class="page-item">
+                        <a class="page-link" href="?page={{ page_obj.next_page_number }}{% if current_filter != 'all' %}&filter={{ current_filter }}{% endif %}">
+                            <i class="fas fa-angle-right"></i>
+                        </a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="?page={{ page_obj.paginator.num_pages }}{% if current_filter != 'all' %}&filter={{ current_filter }}{% endif %}">
+                            <i class="fas fa-angle-double-right"></i>
+                        </a>
+                    </li>
+                {% endif %}
+            </ul>
+        </nav>
+        {% endif %}
+        
+        {% else %}
+        <div class="col-12">
+            <div class="text-center py-5">
+                <i class="fas fa-search fa-4x text-muted mb-3"></i>
+                <h4 class="text-muted mb-2">Вакансий не найдено</h4>
+                <p class="text-muted">
+                    {% if current_filter == 'new' %}
+                        Новых вакансий в этом запуске нет
+                    {% elif current_filter == 'existing' %}
+                        Существующих вакансий в этом запуске нет
+                    {% else %}
+                        В этом запуске вакансий не найдено
+                    {% endif %}
+                </p>
+                <a href="{% url 'scripts:detail' script_run.script.id %}" class="btn btn-outline-primary">
+                    <i class="fas fa-arrow-left me-1"></i>Назад к скрипту
+                </a>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+<!-- Информация о пагинации -->
+{% if page_obj.object_list %}
+<div class="row mt-4">
+    <div class="col-12">
+        <div class="text-center text-muted">
+            <small>
+                Показаны вакансии {{ page_obj.start_index }}–{{ page_obj.end_index }} 
+                из {{ page_obj.paginator.count }}
+            </small>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+<style>
+.vacancy-card {
+    transition: transform 0.2s ease-in-out;
+}
+.vacancy-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.vacancy-card .card-title a {
+    color: #333;
+}
+.vacancy-card .card-title a:hover {
+    color: #0d6efd;
+}
+</style>
+{% endblock %}

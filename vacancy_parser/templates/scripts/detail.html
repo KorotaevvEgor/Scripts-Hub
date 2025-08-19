@@ -1,0 +1,372 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ script.name }} - {{ block.super }}{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2"><i class="fas fa-robot me-2"></i>{{ script.name }}</h1>
+    <div class="btn-toolbar mb-2 mb-md-0">
+        <div class="btn-group me-2">
+            <button 
+                class="btn btn-success run-script-btn" 
+                data-script-id="{{ script.id }}"
+                data-script-name="{{ script.name }}"
+            >
+                <i class="fas fa-play me-1"></i>Запустить скрипт
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="row mb-4">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0"><i class="fas fa-info-circle me-2"></i>Информация о скрипте</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <table class="table table-borderless">
+                            <tr>
+                                <th style="width: 30%;">Тип:</th>
+                                <td>{{ script.get_script_type_display }}</td>
+                            </tr>
+                            <tr>
+                                <th>Поисковый запрос:</th>
+                                <td><code>{{ script.search_query }}</code></td>
+                            </tr>
+                            <tr>
+                                <th>Статус:</th>
+                                <td>
+                                    <span class="badge bg-{% if script.is_active %}success{% else %}secondary{% endif %}">
+                                        {% if script.is_active %}Активен{% else %}Неактивен{% endif %}
+                                    </span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-6">
+                        <table class="table table-borderless">
+                            <tr>
+                                <th style="width: 30%;">Создан:</th>
+                                <td>{{ script.created_at|date:"d.m.Y H:i" }}</td>
+                            </tr>
+                            <tr>
+                                <th>Обновлен:</th>
+                                <td>{{ script.updated_at|date:"d.m.Y H:i" }}</td>
+                            </tr>
+                            <tr>
+                                <th>Автор:</th>
+                                <td>{{ script.created_by.username }}</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h6>Описание:</h6>
+                        <p class="text-muted">{{ script.description }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% if last_run %}
+<div class="row mb-4">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="mb-0"><i class="fas fa-history me-2"></i>Последний запуск</h5>
+                <span class="badge bg-{% if last_run.status == 'completed' %}success{% elif last_run.status == 'failed' %}danger{% else %}warning{% endif %}">
+                    {{ last_run.get_status_display }}
+                </span>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="text-center">
+                            <h4 class="text-primary">{{ last_run.total_found }}</h4>
+                            <small class="text-muted">Всего найдено</small>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="text-center">
+                            <h4 class="text-success">{{ last_run.new_vacancies }}</h4>
+                            <small class="text-muted">Новых вакансий</small>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="text-center">
+                            <h4 class="text-info">{{ last_run.existing_vacancies }}</h4>
+                            <small class="text-muted">Существующих</small>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="text-center">
+                            <small class="text-muted">Запущен</small>
+                            <div>{{ last_run.started_at|date:"d.m.Y H:i" }}</div>
+                        </div>
+                    </div>
+                </div>
+                
+                {% if last_run.status == 'completed' and last_run.total_found > 0 %}
+                <hr>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                    <a href="{% url 'scripts:vacancies' last_run.id %}?filter=new" class="btn btn-success me-md-2">
+                        <i class="fas fa-eye me-1"></i>Посмотреть новые вакансии
+                    </a>
+                    <a href="{% url 'scripts:vacancies' last_run.id %}?filter=existing" class="btn btn-outline-info me-md-2">
+                        <i class="fas fa-list me-1"></i>Посмотреть существующие
+                    </a>
+                    <a href="{% url 'scripts:vacancies' last_run.id %}" class="btn btn-outline-secondary">
+                        <i class="fas fa-list me-1"></i>Все вакансии
+                    </a>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+<!-- Предварительный просмотр вакансий -->
+{% if new_vacancy_runs or old_vacancy_runs %}
+<div class="row">
+    <!-- Новые вакансии -->
+    {% if new_vacancy_runs %}
+    <div class="col-md-6 mb-4">
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="mb-0 text-success">
+                    <i class="fas fa-plus-circle me-2"></i>Новые вакансии
+                    <span class="badge bg-success">{{ new_vacancy_runs.count }}</span>
+                </h5>
+                <a href="{% url 'scripts:vacancies' last_run.id %}?filter=new" class="btn btn-sm btn-outline-success">
+                    Все новые
+                </a>
+            </div>
+            <div class="card-body">
+                {% for vacancy_run in new_vacancy_runs|slice:":5" %}
+                <div class="d-flex justify-content-between align-items-start py-2 {% if not forloop.last %}border-bottom{% endif %}">
+                    <div class="flex-grow-1">
+                        <h6 class="mb-1">
+                            <a href="{{ vacancy_run.vacancy.url }}" target="_blank" class="text-decoration-none">
+                                {{ vacancy_run.vacancy.title|truncatechars:60 }}
+                                <i class="fas fa-external-link-alt fa-xs ms-1"></i>
+                            </a>
+                        </h6>
+                        <p class="text-muted mb-1 small">{{ vacancy_run.vacancy.company }}</p>
+                        <small class="text-success">{{ vacancy_run.vacancy.salary }}</small>
+                    </div>
+                </div>
+                {% endfor %}
+                
+                {% if new_vacancy_runs.count > 5 %}
+                <div class="text-center mt-3">
+                    <small class="text-muted">И еще {{ new_vacancy_runs.count|add:"-5" }} вакансий...</small>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    
+    <!-- Существующие вакансии -->
+    {% if old_vacancy_runs %}
+    <div class="col-md-6 mb-4">
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="mb-0 text-info">
+                    <i class="fas fa-list me-2"></i>Существующие вакансии
+                    <span class="badge bg-info">{{ old_vacancy_runs.count }}</span>
+                </h5>
+                <a href="{% url 'scripts:vacancies' last_run.id %}?filter=existing" class="btn btn-sm btn-outline-info">
+                    Все существующие
+                </a>
+            </div>
+            <div class="card-body">
+                {% for vacancy_run in old_vacancy_runs|slice:":5" %}
+                <div class="d-flex justify-content-between align-items-start py-2 {% if not forloop.last %}border-bottom{% endif %}">
+                    <div class="flex-grow-1">
+                        <h6 class="mb-1">
+                            <a href="{{ vacancy_run.vacancy.url }}" target="_blank" class="text-decoration-none">
+                                {{ vacancy_run.vacancy.title|truncatechars:60 }}
+                                <i class="fas fa-external-link-alt fa-xs ms-1"></i>
+                            </a>
+                        </h6>
+                        <p class="text-muted mb-1 small">{{ vacancy_run.vacancy.company }}</p>
+                        <small class="text-info">{{ vacancy_run.vacancy.salary }}</small>
+                    </div>
+                </div>
+                {% endfor %}
+                
+                {% if old_vacancy_runs.count > 5 %}
+                <div class="text-center mt-3">
+                    <small class="text-muted">И еще {{ old_vacancy_runs.count|add:"-5" }} вакансий...</small>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% else %}
+<div class="row">
+    <div class="col-12">
+        <div class="text-center py-5">
+            <i class="fas fa-search fa-4x text-muted mb-3"></i>
+            <h4 class="text-muted mb-2">Вакансий пока нет</h4>
+            <p class="text-muted mb-4">Запустите скрипт для поиска вакансий</p>
+            <button 
+                class="btn btn-primary run-script-btn" 
+                data-script-id="{{ script.id }}"
+                data-script-name="{{ script.name }}"
+            >
+                <i class="fas fa-play me-1"></i>Запустить скрипт сейчас
+            </button>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+<!-- Модальное окно запуска скрипта -->
+<div class="modal fade" id="runScriptModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">
+                    <i class="fas fa-play me-2"></i>Запуск скрипта
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div id="script-status">
+                    <div class="d-flex align-items-center">
+                        <div class="spinner-border spinner-border-sm me-2" role="status"></div>
+                        <span>Запускаем скрипт...</span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+$(document).ready(function() {
+    let currentRunId = null;
+    let statusCheckInterval = null;
+    
+    // Обработчик запуска скрипта
+    $('.run-script-btn').click(function() {
+        const scriptId = $(this).data('script-id');
+        const scriptName = $(this).data('script-name');
+        
+        // Показываем модальное окно
+        $('#runScriptModal .modal-title').html(`<i class="fas fa-play me-2"></i>Запуск скрипта: ${scriptName}`);
+        $('#script-status').html(`
+            <div class="d-flex align-items-center">
+                <div class="spinner-border spinner-border-sm me-2" role="status"></div>
+                <span>Запускаем скрипт...</span>
+            </div>
+        `);
+        $('#runScriptModal').modal('show');
+        
+        // Отправляем запрос на запуск скрипта
+        $.post(`/scripts/${scriptId}/run/`, {
+            'csrfmiddlewaretoken': $('[name=csrfmiddlewaretoken]').val()
+        })
+        .done(function(data) {
+            if (data.success) {
+                currentRunId = data.run_id;
+                $('#script-status').html(`
+                    <div class="alert alert-success">
+                        <i class="fas fa-check me-2"></i>Скрипт успешно запущен!
+                    </div>
+                    <div id="progress-info">
+                        <div class="d-flex align-items-center">
+                            <div class="spinner-border spinner-border-sm me-2" role="status"></div>
+                            <span>Выполняется...</span>
+                        </div>
+                    </div>
+                `);
+                
+                // Начинаем проверять статус
+                checkStatus();
+            } else {
+                $('#script-status').html(`
+                    <div class="alert alert-danger">
+                        <i class="fas fa-exclamation-triangle me-2"></i>${data.error}
+                    </div>
+                `);
+            }
+        })
+        .fail(function() {
+            $('#script-status').html(`
+                <div class="alert alert-danger">
+                    <i class="fas fa-exclamation-triangle me-2"></i>Ошибка запуска скрипта
+                </div>
+            `);
+        });
+    });
+    
+    function checkStatus() {
+        if (!currentRunId) return;
+        
+        statusCheckInterval = setInterval(function() {
+            $.get(`/scripts/run/${currentRunId}/status/`)
+            .done(function(data) {
+                if (data.success) {
+                    if (data.status === 'completed') {
+                        clearInterval(statusCheckInterval);
+                        $('#progress-info').html(`
+                            <div class="alert alert-success">
+                                <h6><i class="fas fa-check me-2"></i>Скрипт завершён успешно!</h6>
+                                <ul class="mb-0">
+                                    <li>Всего найдено: <strong>${data.total_found}</strong></li>
+                                    <li>Новых вакансий: <strong>${data.new_vacancies}</strong></li>
+                                    <li>Существующих: <strong>${data.existing_vacancies}</strong></li>
+                                </ul>
+                                <hr>
+                                <div class="d-grid gap-2 d-md-flex">
+                                    <a href="/scripts/run/${currentRunId}/vacancies/?filter=new" class="btn btn-success btn-sm me-md-2">
+                                        <i class="fas fa-eye me-1"></i>Новые вакансии
+                                    </a>
+                                    <button class="btn btn-outline-primary btn-sm" onclick="location.reload()">
+                                        <i class="fas fa-sync-alt me-1"></i>Обновить страницу
+                                    </button>
+                                </div>
+                            </div>
+                        `);
+                    } else if (data.status === 'failed') {
+                        clearInterval(statusCheckInterval);
+                        $('#progress-info').html(`
+                            <div class="alert alert-danger">
+                                <h6><i class="fas fa-exclamation-triangle me-2"></i>Ошибка выполнения</h6>
+                                <p class="mb-0">${data.error_message}</p>
+                            </div>
+                        `);
+                    }
+                }
+            });
+        }, 2000); // Проверяем каждые 2 секунды
+    }
+    
+    // Очистка интервала при закрытии модального окна
+    $('#runScriptModal').on('hidden.bs.modal', function() {
+        if (statusCheckInterval) {
+            clearInterval(statusCheckInterval);
+            statusCheckInterval = null;
+        }
+        currentRunId = null;
+    });
+});
+</script>
+{% endblock %}

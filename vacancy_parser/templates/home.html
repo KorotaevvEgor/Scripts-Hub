@@ -1,0 +1,277 @@
+{% extends 'base.html' %}
+
+{% block title %}Панель управления - {{ block.super }}{% endblock %}
+
+{% block extra_css %}
+<style>
+.stat-card {
+    height: 140px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.stat-card .card-body {
+    padding: 1.5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.stat-card .stat-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.stat-card .stat-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stat-card .stat-icon {
+    font-size: 2.5rem;
+    opacity: 0.8;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stat-card .stat-title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    opacity: 0.9;
+}
+
+.stat-card .stat-number {
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 0.25rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card .stat-subtitle {
+    font-size: 0.75rem;
+    opacity: 0.85;
+    line-height: 1.2;
+    font-weight: 500;
+    margin-top: 0.25rem;
+}
+
+/* Градиентные фоны для карточек */
+.stat-card.bg-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+}
+
+.stat-card.bg-success {
+    background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%) !important;
+}
+
+.stat-card.bg-info {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+}
+
+.stat-card.bg-warning {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%) !important;
+}
+
+/* Анимация иконок при наведении */
+.stat-card:hover .stat-icon {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .stat-card {
+        height: 120px;
+        margin-bottom: 1rem;
+    }
+    
+    .stat-card .stat-number {
+        font-size: 2rem;
+    }
+    
+    .stat-card .stat-icon {
+        font-size: 2rem;
+        margin-left: 0.5rem;
+    }
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<!-- Заголовок -->
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-4 border-bottom">
+    <h1 class="h2">
+        <i class="fas fa-tachometer-alt me-2 text-primary"></i>Панель управления
+    </h1>
+</div>
+
+<div class="row">
+    <!-- Статистика -->
+    <div class="col-md-12 mb-4">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card bg-primary text-white stat-card">
+                    <div class="card-body">
+                        <div class="stat-content">
+                            <div class="stat-info">
+                                <div class="stat-title">Активных скриптов</div>
+                                <div class="stat-number">{{ user_scripts.count }}</div>
+                            </div>
+                            <div class="stat-icon">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card bg-success text-white stat-card">
+                    <div class="card-body">
+                        <div class="stat-content">
+                            <div class="stat-info">
+                                <div class="stat-title">Запусков сегодня</div>
+                                <div class="stat-number">{{ today_runs_count }}</div>
+                            </div>
+                            <div class="stat-icon">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card bg-info text-white stat-card">
+                    <div class="card-body">
+                        <div class="stat-content">
+                            <div class="stat-info">
+                                <div class="stat-title">Новых вакансий</div>
+                                <div class="stat-number">{{ new_vacancies_total }}</div>
+                                <div class="stat-subtitle">за последние прогоны</div>
+                            </div>
+                            <div class="stat-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card bg-warning text-white stat-card">
+                    <div class="card-body">
+                        <div class="stat-content">
+                            <div class="stat-info">
+                                <div class="stat-title">Всего вакансий</div>
+                                <div class="stat-number">{{ total_vacancies }}</div>
+                                <div class="stat-subtitle">за всю историю</div>
+                            </div>
+                            <div class="stat-icon">
+                                <i class="fas fa-list"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <!-- Мои скрипты -->
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="mb-0"><i class="fas fa-code me-2"></i>Мои скрипты</h5>
+                <a href="{% url 'scripts:list' %}" class="btn btn-sm btn-outline-primary">Посмотреть все</a>
+            </div>
+            <div class="card-body">
+                {% if user_scripts %}
+                    <div class="row">
+                        {% for script in user_scripts %}
+                        <div class="col-md-6 mb-3">
+                            <div class="card script-card h-100">
+                                <div class="card-body">
+                                    <h6 class="card-title">{{ script.name }}</h6>
+                                    <p class="card-text text-muted small">{{ script.description|truncatechars:100 }}</p>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            <i class="fas fa-search me-1"></i>{{ script.search_query }}
+                                        </small>
+                                    </p>
+                                    <a href="{% url 'scripts:detail' script.id %}" class="btn btn-primary btn-sm">
+                                        <i class="fas fa-eye me-1"></i>Подробнее
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                {% else %}
+                    <div class="text-center py-4">
+                        <i class="fas fa-robot fa-4x text-muted mb-3"></i>
+                        <p class="text-muted">У вас пока нет скриптов</p>
+                        <a href="{% url 'scripts:list' %}" class="btn btn-primary">
+                            <i class="fas fa-plus me-1"></i>Создать первый скрипт
+                        </a>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    
+    <!-- Последние запуски -->
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="mb-0"><i class="fas fa-history me-2"></i>Последние запуски</h5>
+                <a href="{% url 'scripts:history' %}" class="btn btn-sm btn-outline-secondary">Все</a>
+            </div>
+            <div class="card-body">
+                {% if recent_runs %}
+                    {% for run in recent_runs %}
+                    <div class="d-flex justify-content-between align-items-center py-2 {% if not forloop.last %}border-bottom{% endif %}">
+                        <div>
+                            <h6 class="mb-1">{{ run.script.name|truncatechars:30 }}</h6>
+                            <small class="text-muted">{{ run.started_at|date:"d.m.Y H:i" }}</small>
+                        </div>
+                        <div class="text-end">
+                            <span class="badge bg-{% if run.status == 'completed' %}success{% elif run.status == 'failed' %}danger{% else %}warning{% endif %}">
+                                {{ run.get_status_display }}
+                            </span>
+                            {% if run.status == 'completed' %}
+                            <br><small class="text-muted">{{ run.new_vacancies }} новых</small>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                {% else %}
+                    <div class="text-center py-3">
+                        <i class="fas fa-clock fa-2x text-muted mb-2"></i>
+                        <p class="text-muted mb-0">Запусков пока нет</p>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
