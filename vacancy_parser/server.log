@@ -1,540 +1,1937 @@
+nohup: ignoring input
 Watching for file changes with StatReloader
-[20/Aug/2025 00:38:40] "GET / HTTP/1.1" 302 0
-[20/Aug/2025 00:38:40] "GET / HTTP/1.1" 200 14978
-[20/Aug/2025 00:38:43] "GET /admin/ HTTP/1.1" 200 6512
-[20/Aug/2025 00:38:45] "GET /admin/auth/user/ HTTP/1.1" 200 12486
-[20/Aug/2025 00:38:45] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
-[20/Aug/2025 00:38:45] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
-[20/Aug/2025 00:38:45] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
-[20/Aug/2025 00:38:45] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
-[20/Aug/2025 00:38:45] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
-[20/Aug/2025 00:38:45] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 00:38:45] "GET /static/admin/js/core.js HTTP/1.1" 304 0
-[20/Aug/2025 00:38:45] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
-[20/Aug/2025 00:38:45] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
-[20/Aug/2025 00:38:45] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
-[20/Aug/2025 00:38:45] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
-[20/Aug/2025 00:38:45] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
-[20/Aug/2025 00:38:45] "GET /static/admin/js/filters.js HTTP/1.1" 304 0
-[20/Aug/2025 00:38:45] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
-[20/Aug/2025 00:38:45] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
-[20/Aug/2025 00:38:45] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
-[20/Aug/2025 00:38:47] "GET /admin/auth/group/ HTTP/1.1" 200 8276
-[20/Aug/2025 00:38:47] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 00:39:14] "HEAD / HTTP/1.1" 302 0
-[20/Aug/2025 00:39:14] "HEAD /accounts/login/?next=/ HTTP/1.1" 200 0
-[20/Aug/2025 00:39:35] "GET / HTTP/1.1" 200 14978
-[20/Aug/2025 00:39:48] "GET /scripts/ HTTP/1.1" 200 14350
-[20/Aug/2025 00:39:50] "GET /scripts/1/ HTTP/1.1" 200 19024
-[20/Aug/2025 00:39:52] "GET /scripts/ HTTP/1.1" 200 14350
-[20/Aug/2025 00:39:56] "GET /scripts/1/ HTTP/1.1" 200 19024
-[20/Aug/2025 00:40:01] "GET /scripts/run/2/vacancies/?filter=existing HTTP/1.1" 200 9916
-[20/Aug/2025 00:40:03] "GET /scripts/run/2/vacancies/?filter=new HTTP/1.1" 200 9902
-[20/Aug/2025 00:40:04] "GET /scripts/run/2/vacancies/?filter=existing HTTP/1.1" 200 9916
-[20/Aug/2025 00:40:04] "GET /scripts/run/2/vacancies/?filter=existing HTTP/1.1" 200 9916
-[20/Aug/2025 00:40:06] "GET /scripts/run/2/vacancies/ HTTP/1.1" 200 9904
-[20/Aug/2025 00:40:07] "GET /scripts/run/2/vacancies/?filter=new HTTP/1.1" 200 9902
-[20/Aug/2025 00:40:07] "GET /scripts/1/ HTTP/1.1" 200 19024
-[20/Aug/2025 00:40:18] "GET /scripts/run/2/vacancies/?filter=new HTTP/1.1" 200 9902
-[20/Aug/2025 00:40:19] "GET /scripts/run/2/vacancies/?filter=existing HTTP/1.1" 200 9916
-[20/Aug/2025 00:40:20] "GET /scripts/1/ HTTP/1.1" 200 19024
-[20/Aug/2025 00:41:57] "GET /scripts/1/ HTTP/1.1" 302 0
-[20/Aug/2025 00:41:57] "GET /accounts/login/?next=/scripts/1/ HTTP/1.1" 200 5951
-[20/Aug/2025 00:42:01] "GET /scripts/1/ HTTP/1.1" 200 23277
-[20/Aug/2025 00:42:04] "GET /admin/auth/group/ HTTP/1.1" 200 8276
-[20/Aug/2025 00:42:04] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 00:42:05] "GET /admin/auth/group/ HTTP/1.1" 200 8276
-[20/Aug/2025 00:42:05] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 00:42:10] "GET /scripts/run/2/vacancies/?filter=existing HTTP/1.1" 200 9916
-[20/Aug/2025 00:42:11] "GET /scripts/run/2/vacancies/?filter=new HTTP/1.1" 200 133322
-[20/Aug/2025 00:42:13] "GET /scripts/1/ HTTP/1.1" 200 23277
-[20/Aug/2025 00:42:51] "GET /admin/auth/group/ HTTP/1.1" 200 8276
-[20/Aug/2025 00:42:51] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 00:42:51] "GET /admin/auth/group/ HTTP/1.1" 200 8276
-[20/Aug/2025 00:42:51] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 00:42:53] "GET /admin/auth/user/ HTTP/1.1" 200 13041
-[20/Aug/2025 00:42:53] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 00:42:53] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
-[20/Aug/2025 00:42:54] "GET /admin/auth/group/ HTTP/1.1" 200 8276
-[20/Aug/2025 00:42:54] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 00:43:02] "GET /scripts/history/ HTTP/1.1" 200 15695
-[20/Aug/2025 00:43:05] "GET /scripts/1/ HTTP/1.1" 200 23277
-[20/Aug/2025 00:43:08] "GET /scripts/history/ HTTP/1.1" 200 15695
-[20/Aug/2025 00:43:09] "GET /scripts/1/ HTTP/1.1" 200 23277
-[20/Aug/2025 00:43:11] "GET /scripts/1/ HTTP/1.1" 200 23277
-[20/Aug/2025 00:43:23] "GET /admin/auth/group/ HTTP/1.1" 200 8276
-[20/Aug/2025 00:43:23] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 00:44:23] "GET /admin/auth/group/ HTTP/1.1" 200 8276
-[20/Aug/2025 00:44:23] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-C:\Users\catoa\OneDrive\������� ����\hhru\vacancy_parser\scripts\admin.py changed, reloading.
-Performing system checks...
-
-System check identified no issues (0 silenced).
-August 20, 2025 - 00:38:40
-Django version 5.2.5, using settings 'vacancy_parser.settings'
-Starting development server at http://127.0.0.1:8000/
-Quit the server with CTRL-BREAK.
-
-WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
-For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
-Watching for file changes with StatReloader
-[20/Aug/2025 00:44:59] "GET /admin/auth/group/ HTTP/1.1" 200 10600
-[20/Aug/2025 00:44:59] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 00:45:01] "GET /admin/scripts/vacancy/ HTTP/1.1" 200 86114
-[20/Aug/2025 00:45:01] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 00:45:08] "GET /admin/scripts/vacancyrun/ HTTP/1.1" 200 70906
-[20/Aug/2025 00:45:08] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 00:45:10] "GET /admin/scripts/scriptrun/ HTTP/1.1" 200 17139
-[20/Aug/2025 00:45:10] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 00:45:11] "GET /admin/scripts/vacancyrun/ HTTP/1.1" 200 70906
-[20/Aug/2025 00:45:11] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 00:45:15] "GET /admin/scripts/script/ HTTP/1.1" 200 16390
-[20/Aug/2025 00:45:15] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 00:45:24] "GET /admin/scripts/scriptrun/ HTTP/1.1" 200 17139
-[20/Aug/2025 00:45:24] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 00:45:32] "GET /admin/scripts/vacancyrun/ HTTP/1.1" 200 70906
-[20/Aug/2025 00:45:32] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 00:45:42] "GET /admin/scripts/vacancy/ HTTP/1.1" 200 86114
-[20/Aug/2025 00:45:42] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 00:45:59] "GET /admin/scripts/vacancyrun/ HTTP/1.1" 200 70906
-[20/Aug/2025 00:45:59] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 00:46:09] "GET /scripts/1/ HTTP/1.1" 200 23277
-[20/Aug/2025 00:46:10] "GET /scripts/1/ HTTP/1.1" 200 23277
-[20/Aug/2025 00:46:11] "POST /scripts/1/run/ HTTP/1.1" 200 124
-[20/Aug/2025 00:46:13] "GET /scripts/run/3/status/ HTTP/1.1" 200 144
-[20/Aug/2025 00:46:15] "GET /scripts/run/3/status/ HTTP/1.1" 200 144
-[20/Aug/2025 00:46:18] "GET /scripts/run/3/status/ HTTP/1.1" 200 144
-[20/Aug/2025 00:46:19] "GET /scripts/run/3/status/ HTTP/1.1" 200 178
-[20/Aug/2025 00:46:21] "GET /scripts/1/ HTTP/1.1" 200 23441
-[20/Aug/2025 00:46:28] "GET /scripts/run/3/vacancies/?filter=new HTTP/1.1" 200 9902
-[20/Aug/2025 00:46:29] "GET /scripts/run/3/vacancies/?filter=existing HTTP/1.1" 200 127769
-[20/Aug/2025 00:46:34] "GET /scripts/run/3/vacancies/ HTTP/1.1" 200 127721
-[20/Aug/2025 00:46:37] "GET /admin/scripts/vacancyrun/ HTTP/1.1" 200 103168
-[20/Aug/2025 00:46:37] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 00:46:58] "GET /admin/scripts/vacancyrun/ HTTP/1.1" 200 103168
-[20/Aug/2025 00:46:58] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 00:47:03] "GET /admin/scripts/vacancyrun/?o=5 HTTP/1.1" 200 106257
-[20/Aug/2025 00:47:03] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 00:47:04] "GET /admin/scripts/vacancyrun/?o=-5 HTTP/1.1" 200 105970
-[20/Aug/2025 00:47:04] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 00:47:13] "GET /admin/scripts/vacancyrun/?o=5 HTTP/1.1" 200 106257
-[20/Aug/2025 00:47:13] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 00:47:19] "GET /scripts/1/ HTTP/1.1" 200 23441
-[20/Aug/2025 00:47:20] "GET /scripts/ HTTP/1.1" 200 14350
-[20/Aug/2025 00:47:22] "GET /scripts/ HTTP/1.1" 200 14350
-[20/Aug/2025 00:47:24] "GET /scripts/1/ HTTP/1.1" 200 23441
-[20/Aug/2025 00:47:34] "GET /admin/scripts/script/ HTTP/1.1" 200 16390
-[20/Aug/2025 00:47:34] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 00:47:41] "GET /admin/scripts/script/1/change/ HTTP/1.1" 200 18096
-[20/Aug/2025 00:47:41] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 00:47:41] "GET /static/admin/css/forms.css HTTP/1.1" 200 8525
-[20/Aug/2025 00:47:41] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11991
-[20/Aug/2025 00:47:41] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
-[20/Aug/2025 00:47:41] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
-[20/Aug/2025 00:47:54] "GET /admin/auth/user/1/change/?_to_field=id&_popup=1 HTTP/1.1" 200 20696
-[20/Aug/2025 00:47:54] "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
-[20/Aug/2025 00:47:54] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
-[20/Aug/2025 00:47:54] "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
-[20/Aug/2025 00:47:54] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15845
-[20/Aug/2025 00:47:54] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 00:47:54] "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
-[20/Aug/2025 00:47:54] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
-[20/Aug/2025 00:47:54] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
-[20/Aug/2025 00:48:04] "POST /admin/auth/user/1/change/?_to_field=id&_popup=1 HTTP/1.1" 200 451
-[20/Aug/2025 00:48:04] "GET /static/admin/js/popup_response.js HTTP/1.1" 200 532
-[20/Aug/2025 00:48:06] "POST /admin/scripts/script/1/change/ HTTP/1.1" 302 0
-[20/Aug/2025 00:48:06] "GET /admin/scripts/script/ HTTP/1.1" 200 16698
-[20/Aug/2025 00:48:06] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 00:48:10] "GET /scripts/1/ HTTP/1.1" 200 23455
-[20/Aug/2025 00:48:15] "GET /scripts/1/ HTTP/1.1" 200 23455
-[20/Aug/2025 00:48:20] "GET / HTTP/1.1" 200 15908
-[20/Aug/2025 00:50:42] "GET / HTTP/1.1" 200 15908
-[20/Aug/2025 00:50:46] "GET /scripts/1/ HTTP/1.1" 200 23455
-[20/Aug/2025 00:50:48] "GET /scripts/1/ HTTP/1.1" 200 23455
-[20/Aug/2025 00:50:49] "GET /scripts/ HTTP/1.1" 200 14357
-[20/Aug/2025 00:50:50] "GET /scripts/ HTTP/1.1" 200 14357
-[20/Aug/2025 00:50:51] "GET / HTTP/1.1" 200 15908
-C:\Users\catoa\OneDrive\������� ����\hhru\vacancy_parser\scripts\views.py changed, reloading.
-Performing system checks...
-
-System check identified no issues (0 silenced).
-August 20, 2025 - 00:44:41
-Django version 5.2.5, using settings 'vacancy_parser.settings'
-Starting development server at http://127.0.0.1:8000/
-Quit the server with CTRL-BREAK.
-
-WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
-For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
-[00:46:11] ������ ������� �������� hh.ru
-[00:46:11] ����� ��������: '������� �� ������ �����'
-[00:46:11] ��������� 64 ������������ ��������
-[00:46:11] ��������� �������� 1/5
-[00:46:12] ������� 19 ���������� �������� �� �������� 1
-[00:46:12] ��������� �������� 2/5
-[00:46:13] ������� 13 ���������� �������� �� �������� 2
-[00:46:14] ��������� �������� 3/5
-[00:46:14] ������� 6 ���������� �������� �� �������� 3
-[00:46:15] ��������� �������� 4/5
-[00:46:15] ������� 14 ���������� �������� �� �������� 4
-[00:46:16] ��������� �������� 5/5
-[00:46:16] ������� 12 ���������� �������� �� �������� 5
-[00:46:17] ����� ������� 64 ��������
-[00:46:18] ���������: 0 �����, 64 ������������ ��������
-[00:46:19] ������� ����� ��������: 0
-[00:46:19] ��������� ��������: 64
-[00:46:19] ������ �������� ������ �������
-Watching for file changes with StatReloader
-[20/Aug/2025 00:51:13] "GET /scripts/ HTTP/1.1" 200 14357
-[20/Aug/2025 00:51:14] "GET /scripts/ HTTP/1.1" 200 14357
-[20/Aug/2025 00:51:16] "GET / HTTP/1.1" 200 15704
-[20/Aug/2025 00:51:20] "GET /scripts/ HTTP/1.1" 200 14357
-C:\Users\catoa\OneDrive\������� ����\hhru\vacancy_parser\scripts\views.py changed, reloading.
-Performing system checks...
-
-System check identified no issues (0 silenced).
-August 20, 2025 - 00:51:12
-Django version 5.2.5, using settings 'vacancy_parser.settings'
-Starting development server at http://127.0.0.1:8000/
-Quit the server with CTRL-BREAK.
-
-WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
-For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
-Watching for file changes with StatReloader
-C:\Users\catoa\OneDrive\������� ����\hhru\vacancy_parser\scripts\views.py changed, reloading.
-Performing system checks...
-
-System check identified no issues (0 silenced).
-August 20, 2025 - 00:51:30
-Django version 5.2.5, using settings 'vacancy_parser.settings'
-Starting development server at http://127.0.0.1:8000/
-Quit the server with CTRL-BREAK.
-
-WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
-For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
-Watching for file changes with StatReloader
-[20/Aug/2025 00:51:49] "GET / HTTP/1.1" 200 15488
-[20/Aug/2025 00:53:08] "GET / HTTP/1.1" 200 16068
-[20/Aug/2025 00:53:10] "GET / HTTP/1.1" 200 16068
-[20/Aug/2025 00:53:59] "GET / HTTP/1.1" 200 17873
-[20/Aug/2025 00:54:00] "GET / HTTP/1.1" 200 17873
-[20/Aug/2025 00:54:01] "GET / HTTP/1.1" 200 17873
-[20/Aug/2025 00:54:02] "GET / HTTP/1.1" 200 17873
-[20/Aug/2025 00:54:09] "GET /scripts/1/ HTTP/1.1" 200 23455
-[20/Aug/2025 00:54:20] "GET /scripts/ HTTP/1.1" 200 14357
-[20/Aug/2025 00:54:29] "GET /scripts/ HTTP/1.1" 200 14357
-[20/Aug/2025 00:54:30] "GET / HTTP/1.1" 200 17915
-[20/Aug/2025 00:56:52] "GET / HTTP/1.1" 200 17915
-[20/Aug/2025 00:58:25] "GET / HTTP/1.1" 200 25539
-[20/Aug/2025 00:58:52] "GET / HTTP/1.1" 200 24141
-[20/Aug/2025 00:58:55] "GET / HTTP/1.1" 200 24141
-[20/Aug/2025 00:58:56] "GET /scripts/ HTTP/1.1" 200 20583
-[20/Aug/2025 00:58:58] "GET / HTTP/1.1" 200 24141
-[20/Aug/2025 00:58:58] "GET / HTTP/1.1" 200 24141
-[20/Aug/2025 00:59:12] "GET / HTTP/1.1" 200 26385
-[20/Aug/2025 00:59:13] "GET / HTTP/1.1" 200 26385
-[20/Aug/2025 00:59:19] "GET / HTTP/1.1" 200 26404
-[20/Aug/2025 00:59:20] "GET /scripts/history/ HTTP/1.1" 200 27312
-[20/Aug/2025 00:59:23] "GET / HTTP/1.1" 200 26404
-[20/Aug/2025 00:59:25] "GET /scripts/ HTTP/1.1" 200 22827
-[20/Aug/2025 00:59:28] "GET / HTTP/1.1" 200 26404
-[20/Aug/2025 00:59:30] "GET /scripts/ HTTP/1.1" 200 22827
-[20/Aug/2025 00:59:32] "GET /scripts/1/ HTTP/1.1" 200 31925
-[20/Aug/2025 00:59:37] "GET /scripts/run/3/vacancies/?filter=existing HTTP/1.1" 200 136246
-[20/Aug/2025 00:59:40] "GET /scripts/run/3/vacancies/?filter=existing HTTP/1.1" 200 136246
-[20/Aug/2025 00:59:41] "GET /scripts/run/3/vacancies/?filter=new HTTP/1.1" 200 18379
-[20/Aug/2025 00:59:42] "GET /scripts/run/3/vacancies/ HTTP/1.1" 200 136198
-[20/Aug/2025 00:59:43] "GET / HTTP/1.1" 200 27334
-[20/Aug/2025 00:59:43] "GET /scripts/history/ HTTP/1.1" 200 27312
-[20/Aug/2025 00:59:44] "GET / HTTP/1.1" 200 27334
-[20/Aug/2025 00:59:51] "GET /scripts/history/ HTTP/1.1" 200 27312
-[20/Aug/2025 00:59:53] "GET /scripts/1/ HTTP/1.1" 200 31925
-[20/Aug/2025 00:59:55] "GET / HTTP/1.1" 200 27334
-[20/Aug/2025 00:59:57] "GET / HTTP/1.1" 200 27334
-[20/Aug/2025 01:00:13] "GET /scripts/ HTTP/1.1" 200 22827
-[20/Aug/2025 01:00:16] "GET /scripts/1/ HTTP/1.1" 200 31925
-[20/Aug/2025 01:00:20] "GET / HTTP/1.1" 200 27334
-[20/Aug/2025 01:02:34] "GET / HTTP/1.1" 200 26198
-[20/Aug/2025 01:02:43] "GET /scripts/ HTTP/1.1" 200 22827
-[20/Aug/2025 01:02:45] "GET / HTTP/1.1" 200 26198
-[20/Aug/2025 01:03:08] "GET /scripts/history/ HTTP/1.1" 200 27312
-[20/Aug/2025 01:03:09] "GET /scripts/ HTTP/1.1" 200 22827
-[20/Aug/2025 01:03:10] "GET /scripts/history/ HTTP/1.1" 200 27312
-[20/Aug/2025 01:03:17] "GET /admin/ HTTP/1.1" 200 10440
-[20/Aug/2025 01:03:26] "GET / HTTP/1.1" 200 25143
-[20/Aug/2025 01:03:39] "GET /scripts/ HTTP/1.1" 200 22827
-[20/Aug/2025 01:03:41] "GET / HTTP/1.1" 200 25143
-[20/Aug/2025 01:03:42] "GET /scripts/history/ HTTP/1.1" 200 27312
-[20/Aug/2025 01:03:48] "GET /scripts/run/2/vacancies/ HTTP/1.1" 200 141766
-[20/Aug/2025 01:03:51] "GET /scripts/run/2/vacancies/?filter=new HTTP/1.1" 200 141799
-[20/Aug/2025 01:03:52] "GET /scripts/run/2/vacancies/?filter=existing HTTP/1.1" 200 18393
-[20/Aug/2025 01:03:53] "GET /scripts/run/2/vacancies/ HTTP/1.1" 200 141766
-[20/Aug/2025 01:03:54] "GET /scripts/1/ HTTP/1.1" 200 31925
-[20/Aug/2025 01:04:00] "GET /scripts/ HTTP/1.1" 200 22827
-[20/Aug/2025 01:04:05] "GET / HTTP/1.1" 200 25143
-[20/Aug/2025 01:04:32] "GET /scripts/ HTTP/1.1" 200 22827
-[20/Aug/2025 01:04:33] "POST /scripts/1/run/ HTTP/1.1" 200 124
-[20/Aug/2025 01:04:35] "GET /scripts/run/4/status/ HTTP/1.1" 200 144
-[20/Aug/2025 01:04:37] "GET /scripts/run/4/status/ HTTP/1.1" 200 144
-[20/Aug/2025 01:04:39] "GET /scripts/run/4/status/ HTTP/1.1" 200 144
-[20/Aug/2025 01:04:41] "GET /scripts/run/4/status/ HTTP/1.1" 200 178
-[20/Aug/2025 01:04:45] "GET /scripts/ HTTP/1.1" 200 22827
-[20/Aug/2025 01:04:46] "GET /scripts/history/ HTTP/1.1" 200 30452
-[20/Aug/2025 01:04:54] "GET /scripts/1/ HTTP/1.1" 200 31925
-[20/Aug/2025 01:04:58] "GET /scripts/run/4/vacancies/?filter=existing HTTP/1.1" 200 136246
-[20/Aug/2025 01:05:01] "GET /scripts/run/4/vacancies/ HTTP/1.1" 200 136198
-[20/Aug/2025 01:05:05] "GET /scripts/ HTTP/1.1" 200 22827
-[20/Aug/2025 01:09:17] "GET /scripts/ HTTP/1.1" 200 22825
-[20/Aug/2025 01:09:19] "GET /scripts/ HTTP/1.1" 200 22825
-[20/Aug/2025 01:09:23] "GET / HTTP/1.1" 200 25903
-[20/Aug/2025 01:09:30] "GET /scripts/ HTTP/1.1" 200 22824
-[20/Aug/2025 01:09:34] "GET / HTTP/1.1" 200 25903
-[20/Aug/2025 01:09:35] "GET /scripts/ HTTP/1.1" 200 22824
-[20/Aug/2025 01:09:36] "GET / HTTP/1.1" 200 25903
-[20/Aug/2025 01:09:41] "GET /scripts/ HTTP/1.1" 200 22824
-[20/Aug/2025 01:09:43] "GET /scripts/history/ HTTP/1.1" 200 30449
-[20/Aug/2025 01:09:46] "GET /scripts/ HTTP/1.1" 200 22824
-[20/Aug/2025 01:09:48] "GET / HTTP/1.1" 200 25903
-[20/Aug/2025 01:09:51] "GET /scripts/ HTTP/1.1" 200 22824
-[20/Aug/2025 01:09:56] "POST /scripts/1/run/ HTTP/1.1" 200 124
-[20/Aug/2025 01:09:58] "GET /scripts/run/5/status/ HTTP/1.1" 200 144
-[20/Aug/2025 01:10:00] "GET /scripts/run/5/status/ HTTP/1.1" 200 144
-[20/Aug/2025 01:10:02] "GET /scripts/run/5/status/ HTTP/1.1" 200 144
-[20/Aug/2025 01:10:05] "GET /admin/scripts/script/ HTTP/1.1" 200 16404
-[20/Aug/2025 01:10:05] "GET /scripts/run/5/status/ HTTP/1.1" 200 178
-[20/Aug/2025 01:10:05] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
-[20/Aug/2025 01:10:05] "GET /static/admin/css/base.css HTTP/1.1" 304 0
-[20/Aug/2025 01:10:05] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 01:10:05] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
-[20/Aug/2025 01:10:05] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
-[20/Aug/2025 01:10:05] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
-[20/Aug/2025 01:10:05] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
-[20/Aug/2025 01:10:05] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
-[20/Aug/2025 01:10:09] "GET /scripts/run/5/vacancies/ HTTP/1.1" 200 136195
-[20/Aug/2025 01:10:12] "GET /scripts/run/5/vacancies/?filter=existing HTTP/1.1" 200 136243
-[20/Aug/2025 01:10:13] "GET /scripts/run/5/vacancies/?filter=new HTTP/1.1" 200 18376
-[20/Aug/2025 01:10:13] "GET /scripts/run/5/vacancies/ HTTP/1.1" 200 136195
-[20/Aug/2025 01:10:17] "GET / HTTP/1.1" 200 26666
-[20/Aug/2025 01:10:51] "GET /scripts/ HTTP/1.1" 200 22824
-[20/Aug/2025 01:10:53] "GET /scripts/ HTTP/1.1" 200 22824
-[20/Aug/2025 01:10:54] "GET /scripts/history/ HTTP/1.1" 200 33589
-[20/Aug/2025 01:11:11] "GET / HTTP/1.1" 200 26666
-[20/Aug/2025 01:11:17] "GET /scripts/1/ HTTP/1.1" 200 31922
-[20/Aug/2025 01:11:23] "GET / HTTP/1.1" 200 26666
-[20/Aug/2025 01:11:33] "GET / HTTP/1.1" 200 26666
-[20/Aug/2025 01:11:34] "GET / HTTP/1.1" 200 26666
-[20/Aug/2025 01:11:39] "GET / HTTP/1.1" 200 26666
-[20/Aug/2025 01:11:40] "GET /scripts/ HTTP/1.1" 200 22824
-[20/Aug/2025 01:11:41] "GET / HTTP/1.1" 200 26666
-[20/Aug/2025 01:11:53] "GET / HTTP/1.1" 200 26666
-[20/Aug/2025 01:12:02] "GET / HTTP/1.1" 200 26666
-[20/Aug/2025 01:13:22] "GET /admin/scripts/script/ HTTP/1.1" 200 16404
-[20/Aug/2025 01:13:22] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 01:13:24] "GET /admin/scripts/scriptrun/ HTTP/1.1" 200 19737
-[20/Aug/2025 01:13:24] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-C:\Users\catoa\OneDrive\������� ����\hhru\vacancy_parser\scripts\views.py changed, reloading.
-Performing system checks...
-
-System check identified no issues (0 silenced).
-August 20, 2025 - 00:51:34
-Django version 5.2.5, using settings 'vacancy_parser.settings'
-Starting development server at http://127.0.0.1:8000/
-Quit the server with CTRL-BREAK.
-
-WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
-For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
-[01:04:33] ������ ������� �������� hh.ru
-[01:04:33] ����� ��������: '������� �� ������ �����'
-[01:04:33] ��������� 64 ������������ ��������
-[01:04:33] ��������� �������� 1/5
-[01:04:34] ������� 19 ���������� �������� �� �������� 1
-[01:04:34] ��������� �������� 2/5
-[01:04:35] ������� 13 ���������� �������� �� �������� 2
-[01:04:35] ��������� �������� 3/5
-[01:04:36] ������� 6 ���������� �������� �� �������� 3
-[01:04:36] ��������� �������� 4/5
-[01:04:37] ������� 14 ���������� �������� �� �������� 4
-[01:04:37] ��������� �������� 5/5
-[01:04:37] ������� 12 ���������� �������� �� �������� 5
-[01:04:38] ����� ������� 64 ��������
-[01:04:40] ���������: 0 �����, 64 ������������ ��������
-[01:04:40] ������� ����� ��������: 0
-[01:04:40] ��������� ��������: 64
-[01:04:40] ������ �������� ������ �������
-[01:09:56] ������ ������� �������� hh.ru
-[01:09:56] ����� ��������: '������� �� ������ �����'
-[01:09:56] ��������� 64 ������������ ��������
-[01:09:56] ��������� �������� 1/5
-[01:09:56] ������� 19 ���������� �������� �� �������� 1
-[01:09:57] ��������� �������� 2/5
-[01:09:57] ������� 13 ���������� �������� �� �������� 2
-[01:09:58] ��������� �������� 3/5
-[01:09:58] ������� 6 ���������� �������� �� �������� 3
-[01:09:59] ��������� �������� 4/5
-[01:09:59] ������� 14 ���������� �������� �� �������� 4
-[01:10:00] ��������� �������� 5/5
-[01:10:00] ������� 12 ���������� �������� �� �������� 5
-[01:10:01] ����� ������� 64 ��������
-[01:10:02] ���������: 0 �����, 64 ������������ ��������
-[01:10:02] ������� ����� ��������: 0
-[01:10:02] ��������� ��������: 64
-[01:10:02] ������ �������� ������ �������
-Watching for file changes with StatReloader
-C:\Users\catoa\OneDrive\������� ����\hhru\vacancy_parser\scripts\views.py changed, reloading.
-Performing system checks...
-
-System check identified no issues (0 silenced).
-August 20, 2025 - 01:15:05
-Django version 5.2.5, using settings 'vacancy_parser.settings'
-Starting development server at http://127.0.0.1:8000/
-Quit the server with CTRL-BREAK.
-
-WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
-For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
-Watching for file changes with StatReloader
-[20/Aug/2025 01:15:17] "GET / HTTP/1.1" 200 26666
-[20/Aug/2025 01:15:18] "GET / HTTP/1.1" 200 26666
-[20/Aug/2025 01:15:19] "GET /scripts/ HTTP/1.1" 200 22824
-[20/Aug/2025 01:15:20] "GET / HTTP/1.1" 200 26666
-C:\Users\catoa\OneDrive\������� ����\hhru\vacancy_parser\scripts\views.py changed, reloading.
-Performing system checks...
-
-System check identified no issues (0 silenced).
-August 20, 2025 - 01:15:09
-Django version 5.2.5, using settings 'vacancy_parser.settings'
-Starting development server at http://127.0.0.1:8000/
-Quit the server with CTRL-BREAK.
-
-WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
-For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
-Watching for file changes with StatReloader
-C:\Users\catoa\OneDrive\������� ����\hhru\vacancy_parser\scripts\views.py changed, reloading.
-Performing system checks...
-
-System check identified no issues (0 silenced).
-August 20, 2025 - 01:15:39
-Django version 5.2.5, using settings 'vacancy_parser.settings'
-Starting development server at http://127.0.0.1:8000/
-Quit the server with CTRL-BREAK.
-
-WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
-For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
-Watching for file changes with StatReloader
-C:\Users\catoa\OneDrive\������� ����\hhru\vacancy_parser\scripts\views.py changed, reloading.
-Performing system checks...
-
-System check identified no issues (0 silenced).
-August 20, 2025 - 01:16:24
-Django version 5.2.5, using settings 'vacancy_parser.settings'
-Starting development server at http://127.0.0.1:8000/
-Quit the server with CTRL-BREAK.
-
-WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
-For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
-Watching for file changes with StatReloader
-Internal Server Error: /
+[20/Aug/2025 02:54:28] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4378
+[20/Aug/2025 02:54:29] "GET /accounts/login/?next=/ HTTP/1.1" 200 27490
+[20/Aug/2025 02:55:25] "POST /accounts/login/?next=/ HTTP/1.1" 200 27913
+[20/Aug/2025 02:55:59] "POST /accounts/login/?next=/ HTTP/1.1" 200 27913
+[20/Aug/2025 02:56:14] "POST /accounts/login/?next=/ HTTP/1.1" 302 0
+[20/Aug/2025 02:56:14] "GET / HTTP/1.1" 200 23676
+[20/Aug/2025 02:56:17] "GET / HTTP/1.1" 200 23676
+[20/Aug/2025 02:56:18] "GET /scripts/ HTTP/1.1" 200 22730
+[20/Aug/2025 02:56:19] "GET /scripts/history/ HTTP/1.1" 200 16965
+[20/Aug/2025 02:56:20] "GET / HTTP/1.1" 200 23676
+[20/Aug/2025 02:56:23] "POST /accounts/logout/ HTTP/1.1" 302 0
+[20/Aug/2025 02:56:23] "GET /accounts/login/ HTTP/1.1" 200 27982
+[20/Aug/2025 02:56:38] "POST /accounts/login/ HTTP/1.1" 302 0
+[20/Aug/2025 02:56:38] "GET / HTTP/1.1" 200 23676
+[20/Aug/2025 02:56:40] "GET /scripts/ HTTP/1.1" 200 22730
+[20/Aug/2025 02:56:41] "GET / HTTP/1.1" 200 23676
+[20/Aug/2025 02:56:43] "GET / HTTP/1.1" 200 23676
+[20/Aug/2025 02:56:44] "GET /scripts/ HTTP/1.1" 200 22730
+[20/Aug/2025 02:56:45] "GET / HTTP/1.1" 200 23676
+[20/Aug/2025 02:57:08] "GET / HTTP/1.1" 200 23676
+[20/Aug/2025 02:57:20] "GET / HTTP/1.1" 200 23676
+[20/Aug/2025 02:57:21] "GET / HTTP/1.1" 200 23676
+[20/Aug/2025 02:57:23] "GET /scripts/ HTTP/1.1" 200 22730
+[20/Aug/2025 02:57:23] "GET /scripts/history/ HTTP/1.1" 200 16965
+[20/Aug/2025 02:57:24] "GET /scripts/ HTTP/1.1" 200 22730
+[20/Aug/2025 02:57:25] "GET / HTTP/1.1" 200 23676
+[20/Aug/2025 02:57:26] "GET /scripts/ HTTP/1.1" 200 22730
+[20/Aug/2025 02:58:20] "GET /admin/ HTTP/1.1" 200 9584
+[20/Aug/2025 02:58:20] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+[20/Aug/2025 02:58:20] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[20/Aug/2025 02:58:20] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[20/Aug/2025 02:58:22] "GET /admin/scripts/script/ HTTP/1.1" 200 18489
+[20/Aug/2025 02:58:22] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+[20/Aug/2025 02:58:22] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 02:58:22] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[20/Aug/2025 02:58:22] "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+[20/Aug/2025 02:58:22] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+[20/Aug/2025 02:58:22] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+[20/Aug/2025 02:58:22] "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+[20/Aug/2025 02:58:22] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+[20/Aug/2025 02:58:22] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[20/Aug/2025 02:58:22] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+[20/Aug/2025 02:58:22] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[20/Aug/2025 02:58:22] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[20/Aug/2025 02:58:22] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[20/Aug/2025 02:58:22] "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+[20/Aug/2025 02:58:22] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[20/Aug/2025 02:58:22] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+[20/Aug/2025 02:58:30] "GET /admin/scripts/script/1/change/ HTTP/1.1" 200 18139
+[20/Aug/2025 02:58:30] "GET /static/admin/css/forms.css HTTP/1.1" 200 8525
+[20/Aug/2025 02:58:30] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+[20/Aug/2025 02:58:30] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 02:58:30] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11991
+[20/Aug/2025 02:58:30] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[20/Aug/2025 02:58:32] "GET /admin/scripts/script/ HTTP/1.1" 200 18489
+[20/Aug/2025 02:58:32] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[20/Aug/2025 02:58:32] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[20/Aug/2025 02:58:32] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[20/Aug/2025 02:58:32] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[20/Aug/2025 02:58:32] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[20/Aug/2025 02:58:32] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 02:58:32] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[20/Aug/2025 02:58:37] "GET /admin/auth/user/ HTTP/1.1" 200 15899
+[20/Aug/2025 02:58:37] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[20/Aug/2025 02:58:37] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 02:58:41] "GET /admin/auth/user/1/change/ HTTP/1.1" 200 27600
+[20/Aug/2025 02:58:41] "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+[20/Aug/2025 02:58:41] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15845
+[20/Aug/2025 02:58:41] "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+[20/Aug/2025 02:58:41] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+[20/Aug/2025 02:58:42] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 02:58:42] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[20/Aug/2025 02:58:42] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[20/Aug/2025 02:58:42] "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+[20/Aug/2025 02:58:43] "GET /admin/auth/user/1/password/ HTTP/1.1" 200 12328
+[20/Aug/2025 02:58:43] "GET /static/admin/css/unusable_password_field.css HTTP/1.1" 200 663
+[20/Aug/2025 02:58:43] "GET /static/admin/js/unusable_password_field.js HTTP/1.1" 200 1480
+[20/Aug/2025 02:58:52] "POST /admin/auth/user/1/password/ HTTP/1.1" 302 0
+[20/Aug/2025 02:58:52] "GET /admin/auth/user/1/change/ HTTP/1.1" 200 27749
+[20/Aug/2025 02:58:52] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 02:59:05] "GET / HTTP/1.1" 200 26543
+[20/Aug/2025 02:59:08] "GET / HTTP/1.1" 200 26543
+[20/Aug/2025 02:59:09] "GET /scripts/4/ HTTP/1.1" 200 26120
+[20/Aug/2025 02:59:15] "GET /scripts/ HTTP/1.1" 200 27871
+[20/Aug/2025 02:59:21] "POST /accounts/logout/ HTTP/1.1" 302 0
+[20/Aug/2025 02:59:21] "GET /accounts/login/ HTTP/1.1" 200 27982
+[20/Aug/2025 02:59:38] "POST /accounts/login/ HTTP/1.1" 200 27913
+Forbidden (CSRF token from POST incorrect.): /admin/login/
+[20/Aug/2025 02:59:49] "POST /admin/login/?next=/admin/ HTTP/1.1" 403 2545
+[20/Aug/2025 02:59:52] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4378
+[20/Aug/2025 02:59:52] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4378
+[20/Aug/2025 02:59:52] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[20/Aug/2025 02:59:52] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[20/Aug/2025 02:59:52] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[20/Aug/2025 02:59:52] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[20/Aug/2025 02:59:52] "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[20/Aug/2025 02:59:52] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[20/Aug/2025 02:59:53] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[20/Aug/2025 03:00:03] "POST /accounts/login/ HTTP/1.1" 200 27913
+[20/Aug/2025 03:00:12] "POST /accounts/login/ HTTP/1.1" 200 27913
+[20/Aug/2025 03:00:17] "POST /accounts/login/ HTTP/1.1" 302 0
+[20/Aug/2025 03:00:17] "GET / HTTP/1.1" 200 26543
+[20/Aug/2025 03:00:21] "GET /admin/ HTTP/1.1" 200 9989
+[20/Aug/2025 03:00:22] "GET /admin/scripts/script/ HTTP/1.1" 200 18489
+[20/Aug/2025 03:00:22] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 03:00:24] "GET /admin/scripts/script/1/change/ HTTP/1.1" 200 18139
+[20/Aug/2025 03:00:24] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 03:00:29] "POST /admin/scripts/script/1/change/ HTTP/1.1" 302 0
+[20/Aug/2025 03:00:29] "GET /admin/scripts/script/ HTTP/1.1" 200 18776
+[20/Aug/2025 03:00:29] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 03:00:32] "GET /admin/scripts/script/1/change/ HTTP/1.1" 200 18139
+[20/Aug/2025 03:00:32] "GET /admin/scripts/script/ HTTP/1.1" 200 18482
+[20/Aug/2025 03:00:33] "GET /admin/ HTTP/1.1" 200 10433
+[20/Aug/2025 03:00:34] "GET / HTTP/1.1" 200 31412
+[20/Aug/2025 03:00:41] "GET /admin/ HTTP/1.1" 200 10433
+[20/Aug/2025 03:00:42] "GET /admin/scripts/script/ HTTP/1.1" 200 18482
+[20/Aug/2025 03:00:42] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 03:00:51] "POST /admin/scripts/script/ HTTP/1.1" 200 11046
+[20/Aug/2025 03:00:51] "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+[20/Aug/2025 03:00:52] "POST /admin/scripts/script/ HTTP/1.1" 302 0
+[20/Aug/2025 03:00:52] "GET /admin/scripts/script/ HTTP/1.1" 200 15847
+[20/Aug/2025 03:00:52] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 03:00:56] "GET /admin/scripts/script/ HTTP/1.1" 200 15694
+[20/Aug/2025 03:00:56] "GET /admin/ HTTP/1.1" 200 11831
+[20/Aug/2025 03:00:56] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[20/Aug/2025 03:00:58] "GET / HTTP/1.1" 200 28190
+[20/Aug/2025 03:01:05] "GET /scripts/ HTTP/1.1" 200 24343
+[20/Aug/2025 03:01:06] "POST /scripts/1/run/ HTTP/1.1" 200 124
+[20/Aug/2025 03:01:08] "GET /scripts/run/7/status/ HTTP/1.1" 200 144
+[20/Aug/2025 03:01:10] "GET /scripts/run/7/status/ HTTP/1.1" 200 144
+[20/Aug/2025 03:01:12] "GET /scripts/run/7/status/ HTTP/1.1" 200 144
+[20/Aug/2025 03:01:14] "GET /scripts/run/7/status/ HTTP/1.1" 200 144
+[20/Aug/2025 03:01:16] "GET /scripts/run/7/status/ HTTP/1.1" 200 144
+[20/Aug/2025 03:01:18] "GET /scripts/run/7/status/ HTTP/1.1" 200 144
+[20/Aug/2025 03:01:20] "GET /scripts/run/7/status/ HTTP/1.1" 200 144
+[20/Aug/2025 03:01:22] "GET /scripts/run/7/status/ HTTP/1.1" 200 144
+[20/Aug/2025 03:01:25] "GET /scripts/run/7/status/ HTTP/1.1" 200 144
+[20/Aug/2025 03:01:26] "GET /scripts/run/7/status/ HTTP/1.1" 200 180
+[20/Aug/2025 03:01:28] "GET /scripts/run/7/vacancies/ HTTP/1.1" 200 138701
+[20/Aug/2025 03:01:33] "GET /scripts/run/7/vacancies/?filter=new HTTP/1.1" 200 24501
+[20/Aug/2025 03:01:39] "GET / HTTP/1.1" 200 28187
+[20/Aug/2025 03:02:03] "GET / HTTP/1.1" 200 28187
+[20/Aug/2025 03:02:04] "POST /accounts/logout/ HTTP/1.1" 302 0
+[20/Aug/2025 03:02:04] "GET /accounts/login/ HTTP/1.1" 200 27982
+[20/Aug/2025 03:02:11] "POST /accounts/login/ HTTP/1.1" 302 0
+[20/Aug/2025 03:02:11] "GET / HTTP/1.1" 200 28187
+[20/Aug/2025 03:02:13] "POST /accounts/logout/ HTTP/1.1" 302 0
+[20/Aug/2025 03:02:13] "GET /accounts/login/ HTTP/1.1" 200 27982
+[20/Aug/2025 03:02:20] "POST /accounts/login/ HTTP/1.1" 302 0
+[20/Aug/2025 03:02:20] "GET / HTTP/1.1" 200 28187
+[20/Aug/2025 03:02:23] "POST /accounts/logout/ HTTP/1.1" 302 0
+[20/Aug/2025 03:02:23] "GET /accounts/login/ HTTP/1.1" 200 27982
+[20/Aug/2025 03:02:28] "POST /accounts/login/ HTTP/1.1" 302 0
+[20/Aug/2025 03:02:29] "GET / HTTP/1.1" 200 28187
+[20/Aug/2025 03:03:08,474] - Broken pipe from ('79.139.158.221', 1843)
+[20/Aug/2025 03:03:08,510] - Broken pipe from ('79.139.158.221', 1813)
+[20/Aug/2025 03:03:08,523] - Broken pipe from ('79.139.158.221', 1812)
+[20/Aug/2025 03:03:08,523] - Broken pipe from ('79.139.158.221', 1842)
+[20/Aug/2025 03:03:08,524] - Broken pipe from ('79.139.158.221', 1834)
+[20/Aug/2025 03:03:08,549] - Broken pipe from ('79.139.158.221', 1561)
+[20/Aug/2025 03:05:38] "GET / HTTP/1.1" 302 0
+[20/Aug/2025 03:05:38] "GET /accounts/login/?next=/ HTTP/1.1" 200 27490
+Not Found: /favicon.ico
+[20/Aug/2025 03:05:38] "GET /favicon.ico HTTP/1.1" 404 2874
+[20/Aug/2025 03:05:52] "POST /accounts/login/?next=/ HTTP/1.1" 302 0
+[20/Aug/2025 03:05:52] "GET / HTTP/1.1" 200 28187
+Not Found: /favicon.ico
+[20/Aug/2025 03:05:52] "GET /favicon.ico HTTP/1.1" 404 2874
+[20/Aug/2025 03:06:04] "GET /scripts/history/ HTTP/1.1" 200 42256
+Not Found: /favicon.ico
+[20/Aug/2025 03:06:04] "GET /favicon.ico HTTP/1.1" 404 2874
+Not Found: /favicon.ico
+[20/Aug/2025 03:06:14] "GET /favicon.ico HTTP/1.1" 404 2874
+[20/Aug/2025 03:06:18] "GET /scripts/ HTTP/1.1" 200 24343
+Not Found: /favicon.ico
+[20/Aug/2025 03:06:18] "GET /favicon.ico HTTP/1.1" 404 2874
+[20/Aug/2025 03:06:37] "GET /admin/ HTTP/1.1" 200 11831
+[20/Aug/2025 03:06:37] "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+[20/Aug/2025 03:06:37] "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+[20/Aug/2025 03:06:37] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+[20/Aug/2025 03:06:37] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+[20/Aug/2025 03:06:37] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+[20/Aug/2025 03:06:37] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+[20/Aug/2025 03:06:37] "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+[20/Aug/2025 03:06:37] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[20/Aug/2025 03:06:37] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[20/Aug/2025 03:06:37] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+Not Found: /favicon.ico
+[20/Aug/2025 03:06:37] "GET /favicon.ico HTTP/1.1" 404 2874
+[20/Aug/2025 03:06:50] "GET /admin/auth/user/ HTTP/1.1" 200 15899
+[20/Aug/2025 03:06:50] "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+[20/Aug/2025 03:06:50] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+[20/Aug/2025 03:06:50] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+[20/Aug/2025 03:06:50] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[20/Aug/2025 03:06:50] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 03:06:50] "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+[20/Aug/2025 03:06:50] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[20/Aug/2025 03:06:50] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+[20/Aug/2025 03:06:50] "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+[20/Aug/2025 03:06:50] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+[20/Aug/2025 03:06:50] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[20/Aug/2025 03:06:50] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+[20/Aug/2025 03:06:50] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[20/Aug/2025 03:06:50] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[20/Aug/2025 03:06:50] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[20/Aug/2025 03:06:50] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[20/Aug/2025 03:06:50] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+Not Found: /favicon.ico
+[20/Aug/2025 03:06:50] "GET /favicon.ico HTTP/1.1" 404 2874
+[20/Aug/2025 03:15:41] "GET / HTTP/1.1" 200 28187
+Not Found: /favicon.ico
+[20/Aug/2025 03:15:42] "GET /favicon.ico HTTP/1.1" 404 2874
+[20/Aug/2025 03:15:46] "POST /accounts/logout/ HTTP/1.1" 302 0
+[20/Aug/2025 03:15:46] "GET /accounts/login/ HTTP/1.1" 200 27982
+Not Found: /favicon.ico
+[20/Aug/2025 03:15:46] "GET /favicon.ico HTTP/1.1" 404 2874
+[20/Aug/2025 03:23:38,689] - Broken pipe from ('167.94.145.106', 39144)
+[20/Aug/2025 03:23:42] "GET / HTTP/1.1" 302 0
+[20/Aug/2025 03:23:48,295] - Broken pipe from ('167.94.145.106', 39170)
+[20/Aug/2025 03:23:51] "GET / HTTP/1.1" 302 0
+[20/Aug/2025 03:23:51] code 505, message Invalid HTTP version (2.0)
+[20/Aug/2025 03:23:51] "PRI * HTTP/2.0" 505 -
+[20/Aug/2025 03:23:54] "GET /accounts/login/ HTTP/1.1" 200 27490
+Not Found: /favicon.ico
+[20/Aug/2025 03:23:55] "GET /favicon.ico HTTP/1.1" 404 2874
+[20/Aug/2025 03:23:55] code 505, message Invalid HTTP version (2.0)
+[20/Aug/2025 03:23:55] "PRI * HTTP/2.0" 505 -
+[20/Aug/2025 03:24:04] code 400, message Bad request version ('À\x14À')
+[20/Aug/2025 03:24:04] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /login
+[20/Aug/2025 03:24:04] "GET /login HTTP/1.1" 404 2856
+Invalid HTTP_HOST header: 'example.com:443'. You may need to add 'example.com' to ALLOWED_HOSTS.
 Traceback (most recent call last):
-  File "C:\Users\catoa\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
     response = get_response(request)
-  File "C:\Users\catoa\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Users\catoa\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
-    return view_func(request, *args, **kwargs)
-  File "C:\Users\catoa\oneDrive\������� ����\hhru\vacancy_parser\scripts\views.py", line 68, in home_view
-    start_of_day_utc = start_of_day_local.astimezone(timezone.utc)
-                                                     ^^^^^^^^^^^^
-AttributeError: module 'django.utils.timezone' has no attribute 'utc'
-[20/Aug/2025 01:16:51] "GET / HTTP/1.1" 500 73090
-Internal Server Error: /
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'example.com:443'. You may need to add 'example.com' to ALLOWED_HOSTS.
+[20/Aug/2025 05:59:11] "CONNECT example.com:443 HTTP/1.1" 400 64284
+[20/Aug/2025 07:32:06] "GET / HTTP/1.1" 302 0
+[20/Aug/2025 08:10:52] "GET / HTTP/1.1" 302 0
+[20/Aug/2025 08:11:04] "GET / HTTP/1.1" 302 0
+[20/Aug/2025 08:11:04] "GET /accounts/login/?next=/ HTTP/1.1" 200 27490
+[20/Aug/2025 08:11:04,627] - Broken pipe from ('65.49.1.43', 38115)
+Not Found: /favicon.ico
+[20/Aug/2025 08:11:17] "GET /favicon.ico HTTP/1.1" 404 2874
+Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
 Traceback (most recent call last):
-  File "C:\Users\catoa\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
     response = get_response(request)
-  File "C:\Users\catoa\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "C:\Users\catoa\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
-    return view_func(request, *args, **kwargs)
-  File "C:\Users\catoa\oneDrive\������� ����\hhru\vacancy_parser\scripts\views.py", line 68, in home_view
-    start_of_day_utc = start_of_day_local.astimezone(timezone.utc)
-                                                     ^^^^^^^^^^^^
-AttributeError: module 'django.utils.timezone' has no attribute 'utc'
-[20/Aug/2025 01:16:53] "GET / HTTP/1.1" 500 73090
-C:\Users\catoa\OneDrive\������� ����\hhru\vacancy_parser\scripts\views.py changed, reloading.
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+[20/Aug/2025 08:11:21] "GET http://api.ipify.org/?format=json HTTP/1.1" 400 64948
+Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+[20/Aug/2025 08:11:24] "CONNECT www.shadowserver.org:443 HTTP/1.1" 400 65127
+[20/Aug/2025 08:22:58] "GET / HTTP/1.1" 302 0
+[20/Aug/2025 08:22:58] "GET /accounts/login/?next=/ HTTP/1.1" 200 27490
+[20/Aug/2025 09:38:11,010] - Broken pipe from ('66.132.153.51', 44144)
+[20/Aug/2025 09:38:14] "GET / HTTP/1.1" 302 0
+[20/Aug/2025 09:38:20,133] - Broken pipe from ('66.132.153.51', 46588)
+[20/Aug/2025 09:38:23] "GET / HTTP/1.1" 302 0
+[20/Aug/2025 09:38:23] code 505, message Invalid HTTP version (2.0)
+[20/Aug/2025 09:38:23] "PRI * HTTP/2.0" 505 -
+[20/Aug/2025 09:38:26] "GET /accounts/login/ HTTP/1.1" 200 27490
+Not Found: /favicon.ico
+[20/Aug/2025 09:38:27] "GET /favicon.ico HTTP/1.1" 404 2874
+[20/Aug/2025 09:38:27] code 505, message Invalid HTTP version (2.0)
+[20/Aug/2025 09:38:27] "PRI * HTTP/2.0" 505 -
+[20/Aug/2025 09:38:33] code 400, message Bad request version ('À\x14À')
+[20/Aug/2025 09:38:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /.well-known/security.txt
+[20/Aug/2025 09:38:34] "GET /.well-known/security.txt HTTP/1.1" 404 2913
+[20/Aug/2025 09:48:25] "GET / HTTP/1.1" 302 0
+[20/Aug/2025 09:48:25,331] - Broken pipe from ('147.185.132.204', 58146)
+[20/Aug/2025 10:25:20] "GET / HTTP/1.1" 302 0
+[20/Aug/2025 10:25:20] "GET /accounts/login/?next=/ HTTP/1.1" 200 27490
+Not Found: /favicon.ico
+[20/Aug/2025 10:25:20] "GET /favicon.ico HTTP/1.1" 404 2874
+[20/Aug/2025 10:28:52] "GET / HTTP/1.1" 302 0
+[20/Aug/2025 10:28:52] "GET /accounts/login/?next=/ HTTP/1.1" 200 27490
+Not Found: /favicon.ico
+[20/Aug/2025 10:28:58] "GET /favicon.ico HTTP/1.1" 404 2874
+[20/Aug/2025 10:29:02] "POST /accounts/login/?next=/ HTTP/1.1" 302 0
+[20/Aug/2025 10:29:02] "GET / HTTP/1.1" 200 28187
+[20/Aug/2025 10:29:25] "GET /scripts/ HTTP/1.1" 200 24343
+[20/Aug/2025 10:30:06] "GET / HTTP/1.1" 302 0
+[20/Aug/2025 10:30:06] "GET /accounts/login/?next=/ HTTP/1.1" 200 27490
+Not Found: /favicon.ico
+[20/Aug/2025 10:30:07] "GET /favicon.ico HTTP/1.1" 404 2874
+[20/Aug/2025 10:30:13] "GET /accounts/login/ HTTP/1.1" 200 27490
+Not Found: /favicon.ico
+[20/Aug/2025 10:30:14] "GET /favicon.ico HTTP/1.1" 404 2874
+[20/Aug/2025 10:31:15] "POST /scripts/1/run/ HTTP/1.1" 200 124
+[20/Aug/2025 10:31:17] "GET /scripts/run/8/status/ HTTP/1.1" 200 144
+[20/Aug/2025 10:31:20] "GET /scripts/run/8/status/ HTTP/1.1" 200 144
+[20/Aug/2025 10:31:22] "GET /scripts/run/8/status/ HTTP/1.1" 200 144
 Performing system checks...
 
 System check identified no issues (0 silenced).
-August 20, 2025 - 01:16:51
+August 20, 2025 - 02:54:10
 Django version 5.2.5, using settings 'vacancy_parser.settings'
-Starting development server at http://127.0.0.1:8000/
-Quit the server with CTRL-BREAK.
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+[03:01:06] Запуск парсера вакансий hh.ru
+[03:01:06] Поиск вакансий: 'Инженер по охране труда'
+[03:01:06] Загружено 247 существующих вакансий
+[03:01:06] Получаем информацию о количестве доступных вакансий...
+[03:01:06] Всего найдено вакансий: 3884
+[03:01:06] Доступно страниц для загрузки: 20 (из 20)
+[03:01:06] Внимание: API HH.ru позволяет получить только первые 2000 результатов из 3884
+[03:01:06] Загружаем страницу 1/20
+[03:01:07] Найдено 21 подходящих вакансий на странице 1
+[03:01:07] Всего загружено: 21 вакансий
+[03:01:07] Загружаем страницу 2/20
+[03:01:08] Найдено 13 подходящих вакансий на странице 2
+[03:01:08] Всего загружено: 34 вакансий
+[03:01:08] Загружаем страницу 3/20
+[03:01:09] Найдено 5 подходящих вакансий на странице 3
+[03:01:09] Всего загружено: 39 вакансий
+[03:01:09] Загружаем страницу 4/20
+[03:01:09] Найдено 15 подходящих вакансий на странице 4
+[03:01:09] Всего загружено: 54 вакансий
+[03:01:10] Загружаем страницу 5/20
+[03:01:10] Найдено 12 подходящих вакансий на странице 5
+[03:01:10] Всего загружено: 66 вакансий
+[03:01:11] Загружаем страницу 6/20
+[03:01:11] Найдено 11 подходящих вакансий на странице 6
+[03:01:11] Всего загружено: 77 вакансий
+[03:01:11] Загружаем страницу 7/20
+[03:01:12] Найдено 13 подходящих вакансий на странице 7
+[03:01:12] Всего загружено: 90 вакансий
+[03:01:12] Загружаем страницу 8/20
+[03:01:13] Найдено 6 подходящих вакансий на странице 8
+[03:01:13] Всего загружено: 96 вакансий
+[03:01:13] Загружаем страницу 9/20
+[03:01:14] Найдено 42 подходящих вакансий на странице 9
+[03:01:14] Всего загружено: 138 вакансий
+[03:01:14] Загружаем страницу 10/20
+[03:01:14] Найдено 16 подходящих вакансий на странице 10
+[03:01:14] Всего загружено: 154 вакансий
+[03:01:15] Загружаем страницу 11/20
+[03:01:15] Найдено 12 подходящих вакансий на странице 11
+[03:01:15] Всего загружено: 166 вакансий
+[03:01:15] Загружаем страницу 12/20
+[03:01:16] Найдено 7 подходящих вакансий на странице 12
+[03:01:16] Всего загружено: 173 вакансий
+[03:01:16] Загружаем страницу 13/20
+[03:01:17] Найдено 5 подходящих вакансий на странице 13
+[03:01:17] Всего загружено: 178 вакансий
+[03:01:17] Загружаем страницу 14/20
+[03:01:18] Найдено 9 подходящих вакансий на странице 14
+[03:01:18] Всего загружено: 187 вакансий
+[03:01:18] Загружаем страницу 15/20
+[03:01:18] Найдено 7 подходящих вакансий на странице 15
+[03:01:18] Всего загружено: 194 вакансий
+[03:01:19] Загружаем страницу 16/20
+[03:01:19] Найдено 11 подходящих вакансий на странице 16
+[03:01:19] Всего загружено: 205 вакансий
+[03:01:19] Загружаем страницу 17/20
+[03:01:20] Найдено 10 подходящих вакансий на странице 17
+[03:01:20] Всего загружено: 215 вакансий
+[03:01:20] Загружаем страницу 18/20
+[03:01:21] Найдено 12 подходящих вакансий на странице 18
+[03:01:21] Всего загружено: 227 вакансий
+[03:01:21] Загружаем страницу 19/20
+[03:01:22] Найдено 7 подходящих вакансий на странице 19
+[03:01:22] Всего загружено: 234 вакансий
+[03:01:22] Загружаем страницу 20/20
+[03:01:23] Найдено 15 подходящих вакансий на странице 20
+[03:01:23] Всего загружено: 249 вакансий
+[03:01:23] Загрузка завершена. Всего найдено 249 вакансий
+[03:01:26] Сохранено: 2 новых, 247 существующих вакансий
+[03:01:26] Найдено новых вакансий: 2
+[03:01:26] Повторных вакансий: 247
+[03:01:26] Парсер завершил работу успешно
+[10:31:15] Запуск парсера вакансий hh.ru
+[10:31:15] Поиск вакансий: 'Инженер по охране труда'
+[10:31:15] Загружено 249 существующих вакансий
+[10:31:15] Получаем информацию о количестве доступных вакансий...
+[10:31:16] Всего найдено вакансий: 3875
+[10:31:16] Доступно страниц для загрузки: 20 (из 20)
+[10:31:16] Внимание: API HH.ru позволяет получить только первые 2000 результатов из 3875
+[10:31:16] Загружаем страницу 1/20
+[10:31:16] Найдено 11 подходящих вакансий на странице 1
+[10:31:16] Всего загружено: 11 вакансий
+[10:31:17] Загружаем страницу 2/20
+[10:31:17] Найдено 21 подходящих вакансий на странице 2
+[10:31:17] Всего загружено: 32 вакансий
+[10:31:17] Загружаем страницу 3/20
+[10:31:18] Найдено 13 подходящих вакансий на странице 3
+[10:31:18] Всего загружено: 45 вакансий
+[10:31:18] Загружаем страницу 4/20
+[10:31:19] Найдено 9 подходящих вакансий на странице 4
+[10:31:19] Всего загружено: 54 вакансий
+[10:31:19] Загружаем страницу 5/20
+[10:31:20] Найдено 11 подходящих вакансий на странице 5
+[10:31:20] Всего загружено: 65 вакансий
+[10:31:20] Загружаем страницу 6/20
+[10:31:20] Найдено 11 подходящих вакансий на странице 6
+[10:31:20] Всего загружено: 76 вакансий
+[10:31:21] Загружаем страницу 7/20
+[10:31:21] Найдено 14 подходящих вакансий на странице 7
+[10:31:21] Всего загружено: 90 вакансий
+[10:31:21] Загружаем страницу 8/20
+[10:31:22] Найдено 12 подходящих вакансий на странице 8
+[10:31:22] Всего загружено: 102 вакансий
+[10:31:22] Загружаем страницу 9/20
+[10:31:23] Найдено 8 подходящих вакансий на странице 9
+[10:31:23] Всего загружено: 110 вакансий
+[10:31:23] Загружаем страницу 10/20
+[10:31:24] Найдено 42 подходящих вакансий на странице 10[20/Aug/2025 10:31:24] "GET /scripts/run/8/status/ HTTP/1.1" 200 144
+[20/Aug/2025 10:31:26] "GET /scripts/run/8/status/ HTTP/1.1" 200 144
+[20/Aug/2025 10:31:28] "GET /scripts/run/8/status/ HTTP/1.1" 200 144
+[20/Aug/2025 10:31:30] "GET /scripts/run/8/status/ HTTP/1.1" 200 144
+[20/Aug/2025 10:31:32] "GET /scripts/run/8/status/ HTTP/1.1" 200 144
+[20/Aug/2025 10:31:34] "GET /scripts/run/8/status/ HTTP/1.1" 200 144
+[20/Aug/2025 10:31:36] "GET /scripts/run/8/status/ HTTP/1.1" 200 144
+[20/Aug/2025 10:31:38] "GET /scripts/run/8/status/ HTTP/1.1" 200 181
+[20/Aug/2025 10:32:32] "GET /scripts/run/8/vacancies/ HTTP/1.1" 200 138624
+[20/Aug/2025 10:32:48] "GET /scripts/run/8/vacancies/?filter=new HTTP/1.1" 200 44284
+[20/Aug/2025 10:32:55] "GET /scripts/history/ HTTP/1.1" 200 45830
+[20/Aug/2025 10:33:07] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 10:33:08] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 10:33:12] "GET /admin/ HTTP/1.1" 200 11831
+[20/Aug/2025 10:33:12] "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+[20/Aug/2025 10:33:12] "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+[20/Aug/2025 10:33:12] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+[20/Aug/2025 10:33:12] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+[20/Aug/2025 10:33:12] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+[20/Aug/2025 10:33:12] "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+[20/Aug/2025 10:33:12] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+[20/Aug/2025 10:33:12] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[20/Aug/2025 10:33:12] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[20/Aug/2025 10:33:12] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+Not Found: /squid-internal-mgr/cachemgr.cgi
+[20/Aug/2025 11:14:37] "GET /squid-internal-mgr/cachemgr.cgi HTTP/1.1" 404 2934
+[20/Aug/2025 12:01:14] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03oØVWâð\x19¿y®m\x19Âd')
+[20/Aug/2025 12:01:14] You're accessing the development server over HTTPS, but it only supports HTTP.
+[20/Aug/2025 12:01:14] code 400, message Bad request syntax ('MGLNDD_89.111.173.103_8000')
+[20/Aug/2025 12:01:14] "MGLNDD_89.111.173.103_8000" 400 -
+[20/Aug/2025 13:04:23] code 400, message Bad request syntax ('\x01\x01æ')
+[20/Aug/2025 13:04:23] "æ" 400 -
+[20/Aug/2025 13:51:06] "GET / HTTP/1.1" 302 0
+[20/Aug/2025 13:51:06] "GET /accounts/login/?next=/ HTTP/1.1" 200 27490
+Not Found: /favicon.ico
+[20/Aug/2025 13:51:07] "GET /favicon.ico HTTP/1.1" 404 2874
+[20/Aug/2025 13:51:15] "POST /accounts/login/?next=/ HTTP/1.1" 302 0
+[20/Aug/2025 13:51:15] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 13:51:29] "GET /scripts/history/ HTTP/1.1" 200 45830
+[20/Aug/2025 13:51:34] "GET /scripts/ HTTP/1.1" 200 24343
+[20/Aug/2025 13:51:36] "GET /scripts/1/ HTTP/1.1" 200 38384
+[20/Aug/2025 13:51:41] "GET /scripts/run/8/vacancies/?filter=existing HTTP/1.1" 200 138688
+[20/Aug/2025 13:51:47] "GET /scripts/run/8/vacancies/?filter=new HTTP/1.1" 200 44284
+[20/Aug/2025 13:51:52] "GET /scripts/run/8/vacancies/?filter=existing HTTP/1.1" 200 138688
+[20/Aug/2025 13:51:56] "GET /scripts/1/ HTTP/1.1" 200 38384
+[20/Aug/2025 13:52:00] "GET /scripts/run/8/vacancies/ HTTP/1.1" 200 138624
+[20/Aug/2025 13:52:03] "GET /scripts/1/ HTTP/1.1" 200 38384
+[20/Aug/2025 13:52:06] "GET /scripts/ HTTP/1.1" 200 24343
+[20/Aug/2025 13:52:07] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 13:52:12] "GET /scripts/ HTTP/1.1" 200 24343
+[20/Aug/2025 13:52:13] "GET /scripts/1/ HTTP/1.1" 200 38384
+[20/Aug/2025 13:52:23] "GET /scripts/run/8/vacancies/?filter=new HTTP/1.1" 200 44284
+[20/Aug/2025 13:52:29] "GET /scripts/run/8/vacancies/ HTTP/1.1" 200 138624
+[20/Aug/2025 13:52:32] "GET /scripts/1/ HTTP/1.1" 200 38384
+[20/Aug/2025 13:52:36] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 13:52:49] "GET /scripts/history/ HTTP/1.1" 200 45830
+[20/Aug/2025 13:52:59] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 13:53:04] "GET /admin/ HTTP/1.1" 200 11831
+[20/Aug/2025 13:53:04] "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+[20/Aug/2025 13:53:04] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+[20/Aug/2025 13:53:05] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+[20/Aug/2025 13:53:05] "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+[20/Aug/2025 13:53:05] "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+[20/Aug/2025 13:53:05] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+[20/Aug/2025 13:53:05] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+[20/Aug/2025 13:53:05] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[20/Aug/2025 13:53:05] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[20/Aug/2025 13:53:05] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[20/Aug/2025 13:53:06] "GET /admin/auth/user/ HTTP/1.1" 200 15899
+[20/Aug/2025 13:53:06] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+[20/Aug/2025 13:53:06] "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+[20/Aug/2025 13:53:06] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 13:53:06] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[20/Aug/2025 13:53:06] "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+[20/Aug/2025 13:53:06] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+[20/Aug/2025 13:53:06] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+[20/Aug/2025 13:53:06] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[20/Aug/2025 13:53:06] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[20/Aug/2025 13:53:06] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+[20/Aug/2025 13:53:06] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[20/Aug/2025 13:53:06] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[20/Aug/2025 13:53:06] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+[20/Aug/2025 13:53:06] "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+[20/Aug/2025 13:53:06] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[20/Aug/2025 13:53:06] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[20/Aug/2025 13:53:06] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+[20/Aug/2025 13:53:10] "GET /admin/auth/user/add/ HTTP/1.1" 200 15582
+[20/Aug/2025 13:53:10] "GET /static/admin/css/forms.css HTTP/1.1" 200 8525
+[20/Aug/2025 13:53:10] "GET /static/admin/css/unusable_password_field.css HTTP/1.1" 200 663
+[20/Aug/2025 13:53:10] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+[20/Aug/2025 13:53:10] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 13:53:10] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11991
+[20/Aug/2025 13:53:10] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[20/Aug/2025 13:53:10] "GET /static/admin/js/unusable_password_field.js HTTP/1.1" 200 1480
+[20/Aug/2025 13:53:24] "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+[20/Aug/2025 13:53:24] "GET /admin/auth/user/4/change/ HTTP/1.1" 200 27791
+[20/Aug/2025 13:53:24] "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+[20/Aug/2025 13:53:24] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 13:53:24] "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+[20/Aug/2025 13:53:24] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15845
+[20/Aug/2025 13:53:24] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+[20/Aug/2025 13:53:24] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[20/Aug/2025 13:53:24] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[20/Aug/2025 13:53:24] "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+[20/Aug/2025 13:53:37] "POST /admin/auth/user/4/change/ HTTP/1.1" 302 0
+[20/Aug/2025 13:53:37] "GET /admin/auth/user/ HTTP/1.1" 200 16624
+[20/Aug/2025 13:53:37] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 13:53:39] "GET /admin/ HTTP/1.1" 200 12568
+[20/Aug/2025 13:53:40] "GET /admin/auth/user/ HTTP/1.1" 200 16403
+[20/Aug/2025 13:53:41] "GET /admin/auth/user/4/change/ HTTP/1.1" 200 27502
+[20/Aug/2025 13:53:41] "GET /admin/auth/user/add/ HTTP/1.1" 200 15582
+[20/Aug/2025 13:53:42] "GET /admin/auth/user/ HTTP/1.1" 200 16403
+[20/Aug/2025 13:53:43] "GET /admin/ HTTP/1.1" 200 12568
+[20/Aug/2025 13:53:45] "POST /accounts/logout/ HTTP/1.1" 302 0
+[20/Aug/2025 13:53:45] "GET /accounts/login/ HTTP/1.1" 200 27982
+[20/Aug/2025 13:53:54] "POST /accounts/login/ HTTP/1.1" 302 0
+[20/Aug/2025 13:53:54] "GET / HTTP/1.1" 200 23676
+[20/Aug/2025 13:54:01] "GET /admin/ HTTP/1.1" 200 4909
+[20/Aug/2025 13:54:04] "POST /admin/logout/ HTTP/1.1" 302 0
+[20/Aug/2025 13:54:04] "GET /accounts/login/ HTTP/1.1" 200 27490
+[20/Aug/2025 13:54:11] "POST /accounts/login/ HTTP/1.1" 302 0
+[20/Aug/2025 13:54:11] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 13:54:13] "GET /admin/ HTTP/1.1" 200 12568
+[20/Aug/2025 13:54:15] "GET /admin/scripts/script/ HTTP/1.1" 200 15694
+[20/Aug/2025 13:54:15] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 13:54:16] "GET /admin/scripts/script/1/change/ HTTP/1.1" 200 18175
+[20/Aug/2025 13:54:16] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 13:57:31] "GET /admin/scripts/script/1/change/ HTTP/1.1" 200 18175
+[20/Aug/2025 13:57:31] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+/var/www/scriptshub/Scripts-Hub/vacancy_parser/scripts/models.py changed, reloading.
+
+[10:31:24] Всего загружено: 152 вакансий
+[10:31:24] Загружаем страницу 11/20
+[10:31:24] Найдено 13 подходящих вакансий на странице 11
+[10:31:24] Всего загружено: 165 вакансий
+[10:31:25] Загружаем страницу 12/20
+[10:31:25] Найдено 12 подходящих вакансий на странице 12
+[10:31:25] Всего загружено: 177 вакансий
+[10:31:26] Загружаем страницу 13/20
+[10:31:26] Найдено 7 подходящих вакансий на странице 13
+[10:31:26] Всего загружено: 184 вакансий
+[10:31:27] Загружаем страницу 14/20
+[10:31:28] Найдено 5 подходящих вакансий на странице 14
+[10:31:28] Всего загружено: 189 вакансий
+[10:31:28] Загружаем страницу 15/20
+[10:31:28] Найдено 8 подходящих вакансий на странице 15
+[10:31:28] Всего загружено: 197 вакансий
+[10:31:29] Загружаем страницу 16/20
+[10:31:29] Найдено 9 подходящих вакансий на странице 16
+[10:31:29] Всего загружено: 206 вакансий
+[10:31:30] Загружаем страницу 17/20
+[10:31:30] Найдено 10 подходящих вакансий на странице 17
+[10:31:30] Всего загружено: 216 вакансий
+[10:31:31] Загружаем страницу 18/20
+[10:31:31] Найдено 13 подходящих вакансий на странице 18
+[10:31:31] Всего загружено: 229 вакансий
+[10:31:32] Загружаем страницу 19/20
+[10:31:32] Найдено 9 подходящих вакансий на странице 19
+[10:31:32] Всего загружено: 238 вакансий
+[10:31:32] Загружаем страницу 20/20
+[10:31:33] Найдено 8 подходящих вакансий на странице 20
+[10:31:33] Всего загружено: 246 вакансий
+[10:31:33] Загрузка завершена. Всего найдено 246 вакансий
+[10:31:35] Ошибка сохранения вакансии 123843439: UNIQUE constraint failed: scripts_vacancyrun.script_run_id, scripts_vacancyrun.vacancy_id
+[10:31:36] Сохранено: 10 новых, 236 существующих вакансий
+[10:31:36] Найдено новых вакансий: 10
+[10:31:36] Повторных вакансий: 236
+[10:31:36] Парсер завершил работу успешно
+Watching for file changes with StatReloader
+[20/Aug/2025 13:57:56] "GET /admin/scripts/script/1/change/ HTTP/1.1" 200 18175
+[20/Aug/2025 13:57:56] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 13:57:58] "GET /admin/scripts/script/ HTTP/1.1" 200 15694
+[20/Aug/2025 13:57:58] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 13:58:00] "GET /admin/scripts/script/1/change/ HTTP/1.1" 200 18175
+[20/Aug/2025 13:58:00] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 13:58:09] "GET /admin/scripts/scriptrun/ HTTP/1.1" 200 21885
+[20/Aug/2025 13:58:09] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 13:58:11] "GET /admin/scripts/vacancyrun/ HTTP/1.1" 200 101640
+[20/Aug/2025 13:58:11] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 13:58:12] "GET /admin/scripts/vacancy/ HTTP/1.1" 200 143698
+[20/Aug/2025 13:58:12] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 13:58:16] "GET /admin/scripts/script/ HTTP/1.1" 200 15694
+[20/Aug/2025 13:58:16] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 13:58:18] "GET /admin/scripts/script/1/change/ HTTP/1.1" 200 18175
+[20/Aug/2025 13:58:18] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 13:58:39] "GET /admin/scripts/script/1/change/ HTTP/1.1" 200 18175
+[20/Aug/2025 13:58:39] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 13:58:41] "GET /admin/scripts/script/ HTTP/1.1" 200 15694
+[20/Aug/2025 13:58:41] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 13:58:42] "GET /admin/scripts/script/1/change/ HTTP/1.1" 200 18175
+[20/Aug/2025 13:58:42] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+/var/www/scriptshub/Scripts-Hub/vacancy_parser/scripts/admin.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 20, 2025 - 13:57:47
+Django version 5.2.5, using settings 'vacancy_parser.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
 
 WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
 For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
 Watching for file changes with StatReloader
-[20/Aug/2025 01:17:02] "GET / HTTP/1.1" 200 26666
-[20/Aug/2025 01:17:47] "GET /scripts/ HTTP/1.1" 200 22824
-[20/Aug/2025 01:17:50] "GET /scripts/1/ HTTP/1.1" 200 31922
-[20/Aug/2025 01:17:58] "GET /scripts/run/5/vacancies/?filter=existing HTTP/1.1" 200 136243
-[20/Aug/2025 01:18:15] "GET /scripts/run/5/vacancies/?filter=new HTTP/1.1" 200 18376
-[20/Aug/2025 01:18:16] "GET /scripts/run/5/vacancies/?filter=existing HTTP/1.1" 200 136243
-[20/Aug/2025 01:18:20] "GET /scripts/run/5/vacancies/ HTTP/1.1" 200 136195
-[20/Aug/2025 01:18:21] "GET /scripts/1/ HTTP/1.1" 200 31922
-[20/Aug/2025 01:18:24] "GET /scripts/ HTTP/1.1" 200 22824
-[20/Aug/2025 01:18:27] "GET /scripts/history/ HTTP/1.1" 200 33589
-[20/Aug/2025 01:18:30] "GET / HTTP/1.1" 200 26666
-C:\Users\catoa\OneDrive\������� ����\hhru\vacancy_parser\scripts\parser.py changed, reloading.
+[20/Aug/2025 13:59:50] "GET /admin/scripts/script/1/change/ HTTP/1.1" 200 21868
+[20/Aug/2025 13:59:50] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 14:00:13] "POST /admin/scripts/script/1/change/ HTTP/1.1" 302 0
+[20/Aug/2025 14:00:13] "GET /admin/scripts/script/ HTTP/1.1" 200 18533
+[20/Aug/2025 14:00:14] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 14:00:29] "GET /admin/scripts/script/8/change/ HTTP/1.1" 200 21552
+[20/Aug/2025 14:00:29] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 14:00:34] "GET /admin/auth/user/ HTTP/1.1" 200 18516
+[20/Aug/2025 14:00:34] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 14:00:42] "POST /admin/auth/user/ HTTP/1.1" 200 12026
+[20/Aug/2025 14:00:42] "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+[20/Aug/2025 14:00:43] "POST /admin/auth/user/ HTTP/1.1" 302 0
+[20/Aug/2025 14:00:43] "GET /admin/auth/user/ HTTP/1.1" 200 16011
+[20/Aug/2025 14:00:43] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 14:00:45] "GET /admin/scripts/script/ HTTP/1.1" 200 15947
+[20/Aug/2025 14:00:45] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 14:00:48] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 14:00:53] "POST /accounts/logout/ HTTP/1.1" 302 0
+[20/Aug/2025 14:00:53] "GET /accounts/login/ HTTP/1.1" 200 27982
+[20/Aug/2025 14:00:57] "POST /accounts/login/ HTTP/1.1" 302 0
+[20/Aug/2025 14:00:57] "GET / HTTP/1.1" 200 23676
+[20/Aug/2025 14:01:00] "GET / HTTP/1.1" 200 23676
+[20/Aug/2025 14:01:00] "GET / HTTP/1.1" 200 23676
+[20/Aug/2025 14:01:02] "GET /scripts/ HTTP/1.1" 200 22730
+[20/Aug/2025 14:01:03] "GET / HTTP/1.1" 200 23676
+[20/Aug/2025 14:01:05] "POST /accounts/logout/ HTTP/1.1" 302 0
+[20/Aug/2025 14:01:05] "GET /accounts/login/ HTTP/1.1" 200 27982
+[20/Aug/2025 14:01:09] "POST /accounts/login/ HTTP/1.1" 302 0
+[20/Aug/2025 14:01:09] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 14:01:11] "GET /admin/ HTTP/1.1" 200 13152
+[20/Aug/2025 14:01:13] "GET /admin/auth/user/ HTTP/1.1" 200 15848
+[20/Aug/2025 14:01:13] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 14:01:18] "GET /admin/scripts/script/ HTTP/1.1" 200 15947
+[20/Aug/2025 14:01:18] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 14:01:25] "GET /admin/scripts/script/1/change/ HTTP/1.1" 200 21484
+[20/Aug/2025 14:01:25] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 14:01:46] "POST /admin/scripts/script/1/change/ HTTP/1.1" 302 0
+[20/Aug/2025 14:01:46] "GET /admin/scripts/script/ HTTP/1.1" 200 16241
+[20/Aug/2025 14:01:46] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 14:01:47] "GET /admin/scripts/script/1/change/ HTTP/1.1" 200 21484
+[20/Aug/2025 14:01:47] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 14:01:53] "GET /admin/auth/user/ HTTP/1.1" 200 15848
+[20/Aug/2025 14:01:53] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 14:01:54] "GET /admin/auth/user/4/change/ HTTP/1.1" 200 27887
+[20/Aug/2025 14:01:54] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 14:02:00] "POST /admin/auth/user/4/change/ HTTP/1.1" 302 0
+[20/Aug/2025 14:02:01] "GET /admin/auth/user/ HTTP/1.1" 200 16069
+[20/Aug/2025 14:02:01] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 14:02:02] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 14:02:07] "POST /accounts/logout/ HTTP/1.1" 302 0
+[20/Aug/2025 14:02:07] "GET /accounts/login/ HTTP/1.1" 200 27982
+[20/Aug/2025 14:02:10] "POST /accounts/login/ HTTP/1.1" 302 0
+[20/Aug/2025 14:02:10] "GET / HTTP/1.1" 200 23676
+[20/Aug/2025 14:02:52] "GET /scripts/ HTTP/1.1" 200 22730
+[20/Aug/2025 14:02:55] "GET / HTTP/1.1" 200 23676
+[20/Aug/2025 14:03:23] "GET / HTTP/1.1" 200 23676
+[20/Aug/2025 14:03:23] "GET / HTTP/1.1" 200 23676
+[20/Aug/2025 14:03:35] "GET / HTTP/1.1" 200 23676
+[20/Aug/2025 14:03:36] "GET / HTTP/1.1" 200 23676
+[20/Aug/2025 14:03:36] "GET / HTTP/1.1" 200 23676
+/var/www/scriptshub/Scripts-Hub/vacancy_parser/scripts/views.py changed, reloading.
 Performing system checks...
 
 System check identified no issues (0 silenced).
-August 20, 2025 - 01:17:01
+August 20, 2025 - 13:58:56
 Django version 5.2.5, using settings 'vacancy_parser.settings'
-Starting development server at http://127.0.0.1:8000/
-Quit the server with CTRL-BREAK.
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
 
 WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
 For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
 Watching for file changes with StatReloader
-C:\Users\catoa\OneDrive\������� ����\hhru\vacancy_parser\scripts\models.py changed, reloading.
+[20/Aug/2025 14:04:10] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 14:04:22] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 14:04:24] "GET /scripts/ HTTP/1.1" 200 24343
+[20/Aug/2025 14:04:26] "GET /scripts/1/ HTTP/1.1" 200 38384
+[20/Aug/2025 14:04:31] "GET /scripts/ HTTP/1.1" 200 24343
+[20/Aug/2025 14:04:35] "GET /scripts/1/ HTTP/1.1" 200 38384
+[20/Aug/2025 14:05:48] "GET /scripts/1/ HTTP/1.1" 200 38384
+/var/www/scriptshub/Scripts-Hub/vacancy_parser/scripts/views.py changed, reloading.
 Performing system checks...
 
 System check identified no issues (0 silenced).
-August 20, 2025 - 01:21:42
+August 20, 2025 - 14:03:46
 Django version 5.2.5, using settings 'vacancy_parser.settings'
-Starting development server at http://127.0.0.1:8000/
-Quit the server with CTRL-BREAK.
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
 
 WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
 For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
 Watching for file changes with StatReloader
-C:\Users\catoa\OneDrive\������� ����\hhru\vacancy_parser\scripts\parser.py changed, reloading.
+[20/Aug/2025 14:06:44] "GET / HTTP/1.1" 200 28189
+/var/www/scriptshub/Scripts-Hub/vacancy_parser/scripts/urls.py changed, reloading.
 Performing system checks...
 
 System check identified no issues (0 silenced).
-August 20, 2025 - 01:21:57
+August 20, 2025 - 14:06:37
 Django version 5.2.5, using settings 'vacancy_parser.settings'
-Starting development server at http://127.0.0.1:8000/
-Quit the server with CTRL-BREAK.
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
 
 WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
 For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
 Watching for file changes with StatReloader
-[20/Aug/2025 01:22:53] "GET / HTTP/1.1" 200 26666
-[20/Aug/2025 01:22:57] "GET /scripts/1/ HTTP/1.1" 200 31922
-[20/Aug/2025 01:22:59] "POST /scripts/1/run/ HTTP/1.1" 200 124
-[20/Aug/2025 01:23:01] "GET /scripts/run/6/status/ HTTP/1.1" 200 144
-[20/Aug/2025 01:23:03] "GET /scripts/run/6/status/ HTTP/1.1" 200 144
-[20/Aug/2025 01:23:05] "GET /scripts/run/6/status/ HTTP/1.1" 200 144
-[20/Aug/2025 01:23:07] "GET /scripts/run/6/status/ HTTP/1.1" 200 144
-[20/Aug/2025 01:23:09] "GET /scripts/run/6/status/ HTTP/1.1" 200 144
-[20/Aug/2025 01:23:11] "GET /scripts/run/6/status/ HTTP/1.1" 200 144
-[20/Aug/2025 01:23:13] "GET /scripts/run/6/status/ HTTP/1.1" 200 144
-[20/Aug/2025 01:23:15] "GET /scripts/run/6/status/ HTTP/1.1" 200 144
-[20/Aug/2025 01:23:17] "GET /scripts/run/6/status/ HTTP/1.1" 200 144
-[20/Aug/2025 01:23:19] "GET /scripts/run/6/status/ HTTP/1.1" 200 144
-[20/Aug/2025 01:23:21] "GET /scripts/run/6/status/ HTTP/1.1" 200 144
-[20/Aug/2025 01:23:23] "GET /scripts/run/6/status/ HTTP/1.1" 200 144
-[20/Aug/2025 01:23:25] "GET /scripts/run/6/status/ HTTP/1.1" 200 181
-[20/Aug/2025 01:23:29] "GET /scripts/1/ HTTP/1.1" 200 36811
-[20/Aug/2025 01:23:48] "GET / HTTP/1.1" 200 26671
-[20/Aug/2025 01:24:39] "GET /admin/scripts/vacancy/ HTTP/1.1" 200 143499
-[20/Aug/2025 01:24:39] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
-[20/Aug/2025 01:24:45] "GET /admin/scripts/vacancyrun/ HTTP/1.1" 200 101900
-[20/Aug/2025 01:24:45] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 14:06:55] "GET /admin/ HTTP/1.1" 200 9584
+[20/Aug/2025 14:06:59] "POST /admin/logout/ HTTP/1.1" 302 0
+[20/Aug/2025 14:06:59] "GET /accounts/login/ HTTP/1.1" 200 27490
+[20/Aug/2025 14:07:03] "POST /accounts/login/ HTTP/1.1" 302 0
+[20/Aug/2025 14:07:03] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 14:07:08] "GET /admin/ HTTP/1.1" 200 13269
+[20/Aug/2025 14:07:09] "GET /admin/auth/user/ HTTP/1.1" 200 15848
+[20/Aug/2025 14:07:09] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 14:07:11] "GET /admin/auth/user/4/change/ HTTP/1.1" 200 27895
+[20/Aug/2025 14:07:11] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 14:07:18] "POST /admin/auth/user/4/change/ HTTP/1.1" 302 0
+[20/Aug/2025 14:07:18] "GET /admin/auth/user/ HTTP/1.1" 200 16069
+[20/Aug/2025 14:07:18] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 14:07:21] "GET /admin/scripts/script/ HTTP/1.1" 200 15947
+[20/Aug/2025 14:07:21] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 14:07:22] "GET /admin/scripts/script/1/change/ HTTP/1.1" 200 21484
+[20/Aug/2025 14:07:22] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Aug/2025 14:07:32] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 14:07:34] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 14:07:37] "POST /accounts/logout/ HTTP/1.1" 302 0
+[20/Aug/2025 14:07:37] "GET /accounts/login/ HTTP/1.1" 200 27982
+[20/Aug/2025 14:07:40] "POST /accounts/login/ HTTP/1.1" 302 0
+[20/Aug/2025 14:07:40] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 14:07:44] "GET /scripts/ HTTP/1.1" 200 24343
+[20/Aug/2025 14:07:46] "GET /scripts/1/ HTTP/1.1" 200 38384
+[20/Aug/2025 14:07:56] "GET /scripts/1/ HTTP/1.1" 200 39193
+[20/Aug/2025 14:08:00] "GET /scripts/1/export/ HTTP/1.1" 200 22795
+[20/Aug/2025 14:08:34] "GET /scripts/1/ HTTP/1.1" 200 39193
+[20/Aug/2025 14:09:35] "GET /scripts/1/ HTTP/1.1" 200 39193
+[20/Aug/2025 14:09:46] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 14:09:46] "GET /scripts/ HTTP/1.1" 200 24343
+[20/Aug/2025 14:09:47] "GET /scripts/history/ HTTP/1.1" 200 45830
+[20/Aug/2025 14:09:53] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 14:13:12] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 14:13:16] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 14:13:17] "GET /scripts/ HTTP/1.1" 200 24343
+[20/Aug/2025 14:13:26] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 14:13:31] "GET /scripts/history/ HTTP/1.1" 200 45830
+[20/Aug/2025 14:13:40] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 14:16:31] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 14:16:43] "GET /scripts/ HTTP/1.1" 200 24343
+[20/Aug/2025 14:16:45] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 14:16:46] "GET /scripts/ HTTP/1.1" 200 24343
+[20/Aug/2025 14:16:52] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 14:17:02] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 14:17:03] "GET /scripts/ HTTP/1.1" 200 24343
+[20/Aug/2025 14:17:03] "GET /scripts/history/ HTTP/1.1" 200 45830
+[20/Aug/2025 14:17:06] "GET /scripts/ HTTP/1.1" 200 24343
+[20/Aug/2025 14:17:07] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 14:18:19] "POST /accounts/logout/ HTTP/1.1" 302 0
+[20/Aug/2025 14:18:19] "GET /accounts/login/ HTTP/1.1" 200 27982
+[20/Aug/2025 14:18:26] "POST /accounts/login/ HTTP/1.1" 302 0
+[20/Aug/2025 14:18:26] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 14:19:05] "GET / HTTP/1.1" 302 0
+[20/Aug/2025 14:19:05] "GET /accounts/login/?next=/ HTTP/1.1" 200 27490
+Not Found: /favicon.ico
+[20/Aug/2025 14:19:09] "GET /favicon.ico HTTP/1.1" 404 2874
+[20/Aug/2025 14:19:33] "POST /accounts/login/?next=/ HTTP/1.1" 302 0
+[20/Aug/2025 14:19:33] "GET / HTTP/1.1" 200 28189
+[20/Aug/2025 14:19:46] "GET /scripts/1/ HTTP/1.1" 200 39193
+Not Found: /robots.txt
+[20/Aug/2025 14:20:20] "GET /robots.txt HTTP/1.1" 404 2871
+[20/Aug/2025 14:20:20] "GET / HTTP/1.1" 302 0
+[20/Aug/2025 14:20:21] "GET /accounts/login/?next=/ HTTP/1.1" 200 27490
+[20/Aug/2025 14:20:24] "POST /scripts/1/run/ HTTP/1.1" 200 124
+[20/Aug/2025 14:20:26] "GET /scripts/run/9/status/ HTTP/1.1" 200 144
+[20/Aug/2025 14:20:28] "GET /scripts/run/9/status/ HTTP/1.1" 200 144
+[20/Aug/2025 14:20:30] "GET /scripts/run/9/status/ HTTP/1.1" 200 144
+[20/Aug/2025 14:20:32] "GET /scripts/run/9/status/ HTTP/1.1" 200 144
+[20/Aug/2025 14:20:34] "GET /scripts/run/9/status/ HTTP/1.1" 200 144
+[20/Aug/2025 14:20:36] "GET /scripts/run/9/status/ HTTP/1.1" 200 144
+[20/Aug/2025 14:20:38] "GET /scripts/run/9/status/ HTTP/1.1" 200 144
+[20/Aug/2025 14:20:40] "GET /scripts/run/9/status/ HTTP/1.1" 200 144
+[20/Aug/2025 14:20:42] "GET /scripts/run/9/status/ HTTP/1.1" 200 144
+[20/Aug/2025 14:20:44] "GET /scripts/run/9/status/ HTTP/1.1" 200 144
+[20/Aug/2025 14:20:46] "GET /scripts/run/9/status/ HTTP/1.1" 200 180
+[20/Aug/2025 14:21:04] "GET /scripts/1/ HTTP/1.1" 200 38986
+[20/Aug/2025 14:22:33] "GET /scripts/1/export/ HTTP/1.1" 200 22876
+[20/Aug/2025 14:25:16] "GET / HTTP/1.1" 200 28188
+[20/Aug/2025 14:25:35] "POST /accounts/logout/ HTTP/1.1" 302 0
+[20/Aug/2025 14:25:35] "GET /accounts/login/ HTTP/1.1" 200 27982
+[20/Aug/2025 14:25:42] "POST /accounts/login/ HTTP/1.1" 302 0
+[20/Aug/2025 14:25:42] "GET / HTTP/1.1" 200 28188
+[20/Aug/2025 14:25:47] "GET /scripts/1/ HTTP/1.1" 200 38983
+[20/Aug/2025 14:25:57] "GET /scripts/run/9/vacancies/?filter=new HTTP/1.1" 200 39344
+[20/Aug/2025 14:26:00] "GET /scripts/run/9/vacancies/ HTTP/1.1" 200 138574
+[20/Aug/2025 14:26:03] "GET /scripts/1/ HTTP/1.1" 200 38983
+[20/Aug/2025 14:26:27] "GET /admin/ HTTP/1.1" 200 13274
+[20/Aug/2025 14:26:30] "GET / HTTP/1.1" 200 28188
+[20/Aug/2025 14:28:12] "GET / HTTP/1.1" 200 28188
+[20/Aug/2025 14:30:37] "GET / HTTP/1.1" 200 28188
+[20/Aug/2025 15:33:30] "GET / HTTP/1.1" 200 28188
+[20/Aug/2025 15:33:33] "GET /scripts/ HTTP/1.1" 200 24343
+[20/Aug/2025 15:33:35] "GET /scripts/history/ HTTP/1.1" 200 49403
+[20/Aug/2025 15:33:36] "GET /scripts/ HTTP/1.1" 200 24343
+[20/Aug/2025 15:33:38] "GET /scripts/1/ HTTP/1.1" 200 38983
+[20/Aug/2025 15:33:44] "GET / HTTP/1.1" 200 28188
+[20/Aug/2025 15:34:14] "GET / HTTP/1.1" 200 28188
+[20/Aug/2025 16:03:08] code 400, message Bad request syntax ('JDWP-Handshake')
+[20/Aug/2025 16:03:08] "JDWP-Handshake" 400 -
+[20/Aug/2025 16:20:46] "GET / HTTP/1.1" 200 28188
+[20/Aug/2025 16:20:52] "GET /scripts/ HTTP/1.1" 200 24343
+[20/Aug/2025 16:20:55] "GET /scripts/1/ HTTP/1.1" 200 38983
+[20/Aug/2025 16:21:06] "GET / HTTP/1.1" 200 28188
+[20/Aug/2025 16:41:10] "GET / HTTP/1.1" 302 0
+[20/Aug/2025 16:41:16,907] - Broken pipe from ('198.235.24.100', 64396)
+[20/Aug/2025 17:24:04] "GET / HTTP/1.1" 200 28188
+[20/Aug/2025 17:43:42] "GET /scripts/1/ HTTP/1.1" 200 38986
+[20/Aug/2025 20:41:04] code 400, message Bad request syntax ('JDWP-Handshake')
+[20/Aug/2025 20:41:04] "JDWP-Handshake" 400 -
+[20/Aug/2025 20:44:28] "GET / HTTP/1.1" 302 0
+[20/Aug/2025 20:44:28] "GET /accounts/login/?next=/ HTTP/1.1" 200 27490
+[20/Aug/2025 20:46:52] "GET / HTTP/1.1" 302 0
+[20/Aug/2025 20:49:22] code 400, message Bad request version ('À\x14À')
+[20/Aug/2025 20:49:22] You're accessing the development server over HTTPS, but it only supports HTTP.
+[20/Aug/2025 21:24:11] "GET / HTTP/1.1" 302 0
+[20/Aug/2025 21:24:11] "GET /accounts/login/?next=/ HTTP/1.1" 200 27490
+[20/Aug/2025 21:25:39] "GET / HTTP/1.1" 302 0
+[20/Aug/2025 21:27:20] code 400, message Bad request version ('À\x14À')
+[20/Aug/2025 21:27:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+[20/Aug/2025 21:30:46] code 400, message Bad request syntax ('SSH-2.0-Go')
+[20/Aug/2025 21:30:46] "SSH-2.0-Go" 400 -
+[20/Aug/2025 21:30:47] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x08iï')
+[20/Aug/2025 21:30:47] You're accessing the development server over HTTPS, but it only supports HTTP.
+[20/Aug/2025 22:12:50] "GET / HTTP/1.1" 302 0
+[20/Aug/2025 22:12:50] "GET /accounts/login/?next=/ HTTP/1.1" 200 27490
+[20/Aug/2025 22:48:55,063] - Broken pipe from ('167.94.145.109', 50292)
+[20/Aug/2025 22:48:59] "GET / HTTP/1.1" 302 0
+[20/Aug/2025 22:49:05,919] - Broken pipe from ('167.94.145.109', 50392)
+[20/Aug/2025 22:49:09] "GET / HTTP/1.1" 302 0
+[20/Aug/2025 22:49:09] code 505, message Invalid HTTP version (2.0)
+[20/Aug/2025 22:49:09] "PRI * HTTP/2.0" 505 -
+[20/Aug/2025 22:49:14] "GET /accounts/login/ HTTP/1.1" 200 27490
+Not Found: /favicon.ico
+[20/Aug/2025 22:49:14] "GET /favicon.ico HTTP/1.1" 404 2874
+[20/Aug/2025 22:49:15] code 505, message Invalid HTTP version (2.0)
+[20/Aug/2025 22:49:15] "PRI * HTTP/2.0" 505 -
+[20/Aug/2025 22:49:27] code 400, message Bad request version ('À\x14À')
+[20/Aug/2025 22:49:27] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /login
+[20/Aug/2025 22:49:28] "GET /login HTTP/1.1" 404 2856
+[20/Aug/2025 23:38:24] code 400, message Bad request syntax ('MGLNDD_89.111.173.103_8000')
+[20/Aug/2025 23:38:24] "MGLNDD_89.111.173.103_8000" 400 -
+[21/Aug/2025 00:14:24] code 400, message Bad request version ('encoding="UTF-8"?>')
+[21/Aug/2025 00:14:24] "1111    	    ü   admin                                                           queryBasicCfg                                                   <?xml version="1.0" encoding="UTF-8"?>" 400 -
+[21/Aug/2025 00:14:24] code 400, message Bad request syntax ('1111\x88\x00\x00\x00\x01\x01\x00\x00\x00%\xad\x11>')
+[21/Aug/2025 00:14:24] "1111      %­>" 400 -
+[21/Aug/2025 02:07:06] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x10\x04\x00(Á\x00\x00\x00\x00\x0f\x02\x00')
+[21/Aug/2025 02:07:06] "   TZ          (Á     " 400 -
+[21/Aug/2025 05:38:26] "GET / HTTP/1.1" 302 0
+[21/Aug/2025 05:38:30,476] - Broken pipe from ('205.210.31.226', 61016)
+Invalid HTTP_HOST header: 'cv5050500.novalocal:8000'. You may need to add 'cv5050500.novalocal' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'cv5050500.novalocal:8000'. You may need to add 'cv5050500.novalocal' to ALLOWED_HOSTS.
+[21/Aug/2025 06:16:38] "GET / HTTP/1.0" 400 64017
+[21/Aug/2025 06:16:43] code 400, message Bad HTTP/0.9 request type ('l\x00')
+[21/Aug/2025 06:16:43] "l          " 400 -
+Invalid HTTP_HOST header: 'cv5050500.novalocal:8000'. You may need to add 'cv5050500.novalocal' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'cv5050500.novalocal:8000'. You may need to add 'cv5050500.novalocal' to ALLOWED_HOSTS.
+[21/Aug/2025 06:16:43] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 400 64225
+[21/Aug/2025 06:16:43] code 400, message Bad request syntax ('\x05\x04\x00\x01\x02\x80\x05\x01\x00\x03')
+[21/Aug/2025 06:16:43] "  " 400 -
+[21/Aug/2025 06:16:48] code 400, message Bad request syntax ('\x04\x01\x00\x16\x7f\x00\x00\x01root\x00')
+[21/Aug/2025 06:16:48] "   root " 400 -
+Invalid HTTP_HOST header: 'cv5050500.novalocal:8000'. You may need to add 'cv5050500.novalocal' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'cv5050500.novalocal:8000'. You may need to add 'cv5050500.novalocal' to ALLOWED_HOSTS.
+[21/Aug/2025 06:16:48] "OPTIONS / HTTP/1.0" 400 64045
+[21/Aug/2025 06:16:48] code 400, message Bad request version ('RTSP/1.0')
+[21/Aug/2025 06:16:48] "OPTIONS / RTSP/1.0" 400 -
+[21/Aug/2025 06:16:53] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[21/Aug/2025 06:16:53] "  (rþ          |                    " 400 -
+[21/Aug/2025 06:16:58] code 400, message Bad HTTP/0.9 request type ('\x00')
+[21/Aug/2025 06:16:58] "          versionbind   " 400 -
+[21/Aug/2025 06:16:58] code 400, message Bad request syntax ('HELP')
+[21/Aug/2025 06:16:58] "HELP" 400 -
+[21/Aug/2025 06:16:59] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+[21/Aug/2025 06:16:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+[21/Aug/2025 06:16:59] code 400, message Bad request version ('\x00/\x00')
+[21/Aug/2025 06:16:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+[21/Aug/2025 06:16:59] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+[21/Aug/2025 06:16:59] "   qjn0k¡¢" 400 -
+[21/Aug/2025 06:17:04] code 400, message Bad request version ('0.12\x00')
+[21/Aug/2025 06:17:04] "   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 " 400 -
+[21/Aug/2025 06:17:04] code 400, message Bad request version ('SIP/2.0')
+[21/Aug/2025 06:17:04] "OPTIONS sip:nm SIP/2.0" 400 -
+[21/Aug/2025 06:17:09] code 400, message Bad HTTP/0.9 request type ('AMQP\x00\x00')
+[21/Aug/2025 06:17:09] "AMQP  	" 400 -
+Invalid HTTP_HOST header: 'cv5050500.novalocal:8000'. You may need to add 'cv5050500.novalocal' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'cv5050500.novalocal:8000'. You may need to add 'cv5050500.novalocal' to ALLOWED_HOSTS.
+[21/Aug/2025 06:17:09] "GET /devicedesc.xml HTTP/1.1" 400 64070
+Invalid HTTP_HOST header: '89-111-173-103.cloudvps.regruhosting.ru:8000'. You may need to add '89-111-173-103.cloudvps.regruhosting.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89-111-173-103.cloudvps.regruhosting.ru:8000'. You may need to add '89-111-173-103.cloudvps.regruhosting.ru' to ALLOWED_HOSTS.
+[21/Aug/2025 06:17:09] "GET / HTTP/1.1" 400 64933
+[21/Aug/2025 06:17:09] code 400, message Bad request version ('\x00/\x00')
+[21/Aug/2025 06:17:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+Invalid HTTP_HOST header: '89-111-173-103.cloudvps.regruhosting.ru:8000'. You may need to add '89-111-173-103.cloudvps.regruhosting.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89-111-173-103.cloudvps.regruhosting.ru:8000'. You may need to add '89-111-173-103.cloudvps.regruhosting.ru' to ALLOWED_HOSTS.
+[21/Aug/2025 06:17:10] "GET / HTTP/1.1" 400 64933
+Invalid HTTP_HOST header: '89-111-173-103.cloudvps.regruhosting.ru:8000'. You may need to add '89-111-173-103.cloudvps.regruhosting.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89-111-173-103.cloudvps.regruhosting.ru:8000'. You may need to add '89-111-173-103.cloudvps.regruhosting.ru' to ALLOWED_HOSTS.
+[21/Aug/2025 06:17:10] "GET /webui HTTP/1.1" 400 64887
+Invalid HTTP_HOST header: '89-111-173-103.cloudvps.regruhosting.ru:8000'. You may need to add '89-111-173-103.cloudvps.regruhosting.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89-111-173-103.cloudvps.regruhosting.ru:8000'. You may need to add '89-111-173-103.cloudvps.regruhosting.ru' to ALLOWED_HOSTS.
+[21/Aug/2025 06:17:10] "GET /favicon.ico HTTP/1.1" 400 64953
+Invalid HTTP_HOST header: '89-111-173-103.cloudvps.regruhosting.ru:8000'. You may need to add '89-111-173-103.cloudvps.regruhosting.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89-111-173-103.cloudvps.regruhosting.ru:8000'. You may need to add '89-111-173-103.cloudvps.regruhosting.ru' to ALLOWED_HOSTS.
+[21/Aug/2025 06:17:10] "GET / HTTP/1.1" 400 64933
+Invalid HTTP_HOST header: '89-111-173-103.cloudvps.regruhosting.ru:8000'. You may need to add '89-111-173-103.cloudvps.regruhosting.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89-111-173-103.cloudvps.regruhosting.ru:8000'. You may need to add '89-111-173-103.cloudvps.regruhosting.ru' to ALLOWED_HOSTS.
+[21/Aug/2025 06:17:10] "GET /owa/ HTTP/1.1" 400 64876
+Invalid HTTP_HOST header: '89-111-173-103.cloudvps.regruhosting.ru:8000'. You may need to add '89-111-173-103.cloudvps.regruhosting.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89-111-173-103.cloudvps.regruhosting.ru:8000'. You may need to add '89-111-173-103.cloudvps.regruhosting.ru' to ALLOWED_HOSTS.
+[21/Aug/2025 06:17:11] "GET /owa/ HTTP/1.1" 400 64876
+[21/Aug/2025 06:17:19] code 400, message Bad request version ("ÝèÿËt¶3\x00?\x9aIÎ\x8dò|³ÓFd·4O\x8e¾º>\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À")
+[21/Aug/2025 06:17:19] You're accessing the development server over HTTPS, but it only supports HTTP.
+Invalid HTTP_HOST header: '89-111-173-103.cloudvps.regruhosting.ru'. You may need to add '89-111-173-103.cloudvps.regruhosting.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/http/request.py", line 202, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '89-111-173-103.cloudvps.regruhosting.ru'. You may need to add '89-111-173-103.cloudvps.regruhosting.ru' to ALLOWED_HOSTS.
+[21/Aug/2025 06:17:19] "GET / HTTP/1.1" 400 64411
+[21/Aug/2025 06:51:09] code 400, message Bad request version ('À\x14À')
+[21/Aug/2025 06:51:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+[21/Aug/2025 07:21:12] code 400, message Bad HTTP/0.9 request type ('Z¥\x01')
+[21/Aug/2025 07:21:12] "Z¥     " 400 -
+[21/Aug/2025 08:55:21,004] - Broken pipe from ('66.132.153.48', 32862)
+[21/Aug/2025 08:55:24] "GET / HTTP/1.1" 302 0
+[21/Aug/2025 08:55:30,127] - Broken pipe from ('66.132.153.48', 51130)
+[21/Aug/2025 08:55:33] "GET / HTTP/1.1" 302 0
+[21/Aug/2025 08:55:33] code 505, message Invalid HTTP version (2.0)
+[21/Aug/2025 08:55:33] "PRI * HTTP/2.0" 505 -
+[21/Aug/2025 08:55:36] "GET /accounts/login/ HTTP/1.1" 200 27490
+Not Found: /favicon.ico
+[21/Aug/2025 08:55:37] "GET /favicon.ico HTTP/1.1" 404 2874
+[21/Aug/2025 08:55:37] code 505, message Invalid HTTP version (2.0)
+[21/Aug/2025 08:55:37] "PRI * HTTP/2.0" 505 -
+[21/Aug/2025 08:55:43] code 400, message Bad request version ('À\x14À')
+[21/Aug/2025 08:55:43] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /login
+[21/Aug/2025 08:55:44] "GET /login HTTP/1.1" 404 2856
+[21/Aug/2025 09:36:59] code 400, message Bad request syntax ('nil')
+[21/Aug/2025 09:36:59] "nil" 400 -
+[21/Aug/2025 09:37:00] "GET / HTTP/1.0" 302 0
+[21/Aug/2025 09:37:00] "GET / HTTP/1.1" 302 0
+Not Found: /favicon.ico
+[21/Aug/2025 09:37:00] "GET /favicon.ico HTTP/1.1" 404 2874
+[21/Aug/2025 09:37:01] "GET /accounts/login/?next=/ HTTP/1.1" 200 27490
+Not Found: /favicon.ico
+[21/Aug/2025 09:37:02] "GET /favicon.ico HTTP/1.1" 404 2874
+/var/www/scriptshub/Scripts-Hub/vacancy_parser/scripts/models.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 20, 2025 - 14:06:50
+Django version 5.2.5, using settings 'vacancy_parser.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+[14:20:24] Запуск парсера вакансий hh.ru
+[14:20:24] Поиск вакансий: 'Инженер по охране труда'
+[14:20:24] Загружено 259 существующих вакансий
+[14:20:24] Получаем информацию о количестве доступных вакансий...
+[14:20:24] Всего найдено вакансий: 3871
+[14:20:24] Доступно страниц для загрузки: 20 (из 20)
+[14:20:24] Внимание: API HH.ru позволяет получить только первые 2000 результатов из 3871
+[14:20:24] Загружаем страницу 1/20
+[14:20:25] Найдено 13 подходящих вакансий на странице 1
+[14:20:25] Всего загружено: 13 вакансий
+[14:20:25] Загружаем страницу 2/20
+[14:20:26] Найдено 8 подходящих вакансий на странице 2
+[14:20:26] Всего загружено: 21 вакансий
+[14:20:26] Загружаем страницу 3/20
+[14:20:27] Найдено 22 подходящих вакансий на странице 3
+[14:20:27] Всего загружено: 43 вакансий
+[14:20:27] Загружаем страницу 4/20
+[14:20:27] Найдено 12 подходящих вакансий на странице 4
+[14:20:27] Всего загружено: 55 вакансий
+[14:20:28] Загружаем страницу 5/20
+[14:20:28] Найдено 13 подходящих вакансий на странице 5
+[14:20:28] Всего загружено: 68 вакансий
+[14:20:29] Загружаем страницу 6/20
+[14:20:29] Найдено 8 подходящих вакансий на странице 6
+[14:20:29] Всего загружено: 76 вакансий
+[14:20:30] Загружаем страницу 7/20
+[14:20:30] Найдено 11 подходящих вакансий на странице 7
+[14:20:30] Всего загружено: 87 вакансий
+[14:20:31] Загружаем страницу 8/20
+[14:20:31] Найдено 17 подходящих вакансий на странице 8
+[14:20:31] Всего загружено: 104 вакансий
+[14:20:31] Загружаем страницу 9/20
+[14:20:32] Найдено 10 подходящих вакансий на странице 9
+[14:20:32] Всего загружено: 114 вакансий
+[14:20:32] Загружаем страницу 10/20
+[14:20:33] Найдено 9 подходящих вакансий на странице 10
+[14:20:33] Всего загружено: 123 вакансий
+[14:20:33] Загружаем страницу 11/20
+[14:20:34] Найдено 39 подходящих вакансий на странице 11
+[14:20:34] Всего загружено: 162 вакансий
+[14:20:34] Загружаем страницу 12/20
+[14:20:35] Найдено 14 подходящих вакансий на странице 12
+[14:20:35] Всего загружено: 176 вакансий
+[14:20:35] Загружаем страницу 13/20
+[14:20:36] Найдено 10 подходящих вакансий на странице 13
+[14:20:36] Всего загружено: 186 вакансий
+[14:20:36] Загружаем страницу 14/20
+[14:20:37] Найдено 8 подходящих вакансий на странице 14
+[14:20:37] Всего загружено: 194 вакансий
+[14:20:37] Загружаем страницу 15/20
+[14:20:38] Найдено 7 подходящих вакансий на странице 15
+[14:20:38] Всего загружено: 201 вакансий
+[14:20:38] Загружаем страницу 16/20
+[14:20:38] Найдено 9 подходящих вакансий на странице 16
+[14:20:38] Всего загружено: 210 вакансий
+[14:20:39] Загружаем страницу 17/20
+[14:20:39] Найдено 9 подходящих вакансий на странице 17
+[14:20:39] Всего загружено: 219 вакансий
+[14:20:40] Загружаем страницу 18/20
+[14:20:40] Найдено 9 подходящих вакансий на странице 18
+[14:20:40] Всего загружено: 228 вакансий
+[14:20:41] Загружаем страницу 19/20
+[14:20:41] Найдено 12 подходящих вакансий на странице 19
+[14:20:41] Всего загружено: 240 вакансий
+[14:20:41] Загружаем страницу 20/20
+[14:20:42] Найдено 8 подходящих вакансий на странице 20
+[14:20:42] Всего загружено: 248 вакансий
+[14:20:42] Загрузка завершена. Всего найдено 248 вакансий
+[14:20:45] Сохранено: 8 новых, 240 существующих вакансий
+[14:20:45] Найдено новых вакансий: 8
+[14:20:45] Повторных вакансий: 240
+[14:20:45] Парсер завершил работу успешно
+Watching for file changes with StatReloader
+/var/www/scriptshub/Scripts-Hub/vacancy_parser/scripts/parser.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 21, 2025 - 10:15:20
+Django version 5.2.5, using settings 'vacancy_parser.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+/var/www/scriptshub/Scripts-Hub/vacancy_parser/scripts/admin.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 21, 2025 - 10:16:46
+Django version 5.2.5, using settings 'vacancy_parser.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+/var/www/scriptshub/Scripts-Hub/vacancy_parser/scripts/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 21, 2025 - 10:17:57
+Django version 5.2.5, using settings 'vacancy_parser.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(**check_kwargs)
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/management/base.py", line 492, in check
+    all_issues = checks.run_checks(
+                 ^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/checks/registry.py", line 89, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/checks/urls.py", line 44, in check_url_namespaces_unique
+    all_namespaces = _load_all_namespaces(resolver)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/checks/urls.py", line 63, in _load_all_namespaces
+    url_patterns = getattr(resolver, "url_patterns", [])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/vacancy_parser/urls.py", line 20, in <module>
+    from scripts.views import home_view, logout_view
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/scripts/views.py", line 344
+    cell.font = header_font
+IndentationError: unexpected indent
+/var/www/scriptshub/Scripts-Hub/vacancy_parser/scripts/views.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(**check_kwargs)
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/management/base.py", line 492, in check
+    all_issues = checks.run_checks(
+                 ^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/checks/registry.py", line 89, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/checks/urls.py", line 44, in check_url_namespaces_unique
+    all_namespaces = _load_all_namespaces(resolver)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/checks/urls.py", line 63, in _load_all_namespaces
+    url_patterns = getattr(resolver, "url_patterns", [])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/vacancy_parser/urls.py", line 20, in <module>
+    from scripts.views import home_view, logout_view
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/scripts/views.py", line 344
+    cell.font = header_font
+IndentationError: unexpected indent
+/var/www/scriptshub/Scripts-Hub/vacancy_parser/scripts/views.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(**check_kwargs)
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/management/base.py", line 492, in check
+    all_issues = checks.run_checks(
+                 ^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/checks/registry.py", line 89, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/checks/urls.py", line 44, in check_url_namespaces_unique
+    all_namespaces = _load_all_namespaces(resolver)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/checks/urls.py", line 63, in _load_all_namespaces
+    url_patterns = getattr(resolver, "url_patterns", [])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/vacancy_parser/urls.py", line 20, in <module>
+    from scripts.views import home_view, logout_view
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/scripts/views.py", line 344
+    cell.font = header_font
+IndentationError: unexpected indent
+/var/www/scriptshub/Scripts-Hub/vacancy_parser/scripts/views.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(**check_kwargs)
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/management/base.py", line 492, in check
+    all_issues = checks.run_checks(
+                 ^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/checks/registry.py", line 89, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/checks/urls.py", line 136, in check_custom_error_handlers
+    handler = resolver.resolve_error_handler(status_code)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 732, in resolve_error_handler
+    callback = getattr(self.urlconf_module, "handler%s" % view_type, None)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/vacancy_parser/urls.py", line 25, in <module>
+    path('scripts/', include('scripts.urls')),
+                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/scripts/urls.py", line 10, in <module>
+    path('<int:script_id>/export/', views.export_vacancies_excel, name='export_excel'),
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'scripts.views' has no attribute 'export_vacancies_excel'
+/var/www/scriptshub/Scripts-Hub/vacancy_parser/scripts/views.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+[21/Aug/2025 10:31:20] "GET / HTTP/1.1" 200 28188
+[21/Aug/2025 10:31:24] "GET /scripts/1/ HTTP/1.1" 200 38835
+[21/Aug/2025 10:31:30] "POST /scripts/1/run/ HTTP/1.1" 200 125
+[21/Aug/2025 10:31:32] "GET /scripts/run/11/status/ HTTP/1.1" 200 144
+[21/Aug/2025 10:31:34] "GET /scripts/run/11/status/ HTTP/1.1" 200 144
+[21/Aug/2025 10:31:36] "GET /scripts/run/11/status/ HTTP/1.1" 200 144
+[21/Aug/2025 10:31:38] "GET /scripts/run/11/status/ HTTP/1.1" 200 144
+[21/Aug/2025 10:31:40] "GET /scripts/run/11/status/ HTTP/1.1" 200 144
+[21/Aug/2025 10:31:42] "GET /scripts/run/11/status/ HTTP/1.1" 200 144
+[21/Aug/2025 10:31:44] "GET /scripts/run/11/status/ HTTP/1.1" 200 144
+[21/Aug/2025 10:31:46] "GET /scripts/run/11/status/ HTTP/1.1" 200 144
+[21/Aug/2025 10:31:48] "GET /scripts/run/11/status/ HTTP/1.1" 200 144
+[21/Aug/2025 10:31:50] "GET /scripts/run/11/status/ HTTP/1.1" 200 144
+[21/Aug/2025 10:31:52] "GET /scripts/run/11/status/ HTTP/1.1" 200 144
+[21/Aug/2025 10:31:54] "GET /scripts/run/11/status/ HTTP/1.1" 200 144
+[21/Aug/2025 10:31:56] "GET /scripts/run/11/status/ HTTP/1.1" 200 144
+[21/Aug/2025 10:31:58] "GET /scripts/run/11/status/ HTTP/1.1" 200 144
+[21/Aug/2025 10:32:00] "GET /scripts/run/11/status/ HTTP/1.1" 200 144
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 21, 2025 - 10:21:26
+Django version 5.2.5, using settings 'vacancy_parser.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+[10:31:30] Начинаем парсинг вакансий
+[10:31:30] Скрипт: Парсер вакансий "Инженер по охране труда"
+[10:31:30] Настроено поисковых запросов: 2
+[10:31:30] Поисковые запросы: Инженер по охране труда, Специалист по охране труда
+[10:31:30] Регион поиска: Москва и МО
+[10:31:30] 
+--- Запрос 1/2: 'Инженер по охране труда' ---
+[10:31:30] Начинаем поиск по запросу: 'Инженер по охране труда'
+[10:31:30] Регионы поиска: 1, 1002
+[10:31:30] По запросу 'Инженер по охране труда' найдено 1455 вакансий на 15 страницах
+[10:31:30] Обрабатываем страницу 1/15 для запроса 'Инженер по охране труда'
+[10:31:30] Со страницы 1 получено 100 вакансий
+[10:31:31] Обрабатываем страницу 2/15 для запроса 'Инженер по охране труда'
+[10:31:31] Со страницы 2 получено 100 вакансий
+[10:31:32] Обрабатываем страницу 3/15 для запроса 'Инженер по охране труда'
+[10:31:32] Со страницы 3 получено 100 вакансий
+[10:31:33] Обрабатываем страницу 4/15 для запроса 'Инженер по охране труда'
+[10:31:33] Со страницы 4 получено 100 вакансий
+[10:31:34] Обрабатываем страницу 5/15 для запроса 'Инженер по охране труда'
+[10:31:35] Со страницы 5 получено 100 вакансий
+[10:31:35] Обрабатываем страницу 6/15 для запроса 'Инженер по охране труда'
+[10:31:35] Со страницы 6 получено 100 вакансий
+[10:31:36] Обрабатываем страницу 7/15 для запроса 'Инженер по охране труда'
+[10:31:36] Со страницы 7 получено 100 вакансий
+[10:31:37] Обрабатываем страницу 8/15 для запроса 'Инженер по охране труда'
+[10:31:38] Со страницы 8 получено 100 вакансий
+[10:31:38] Обрабатываем страницу 9/15 для запроса 'Инженер по охране труда'
+[10:31:39] Со страницы 9 получено 100 вакансий
+[10:31:39] Обрабатываем страницу 10/15 для запроса 'Инженер по охране труда'
+[10:31:40] Со страницы 10 получено 100 вакансий
+[10:31:40] Обрабатываем страницу 11/15 для запроса 'Инженер по охране труда'
+[10:31:41] Со страницы 11 получено 100 вакансий
+[10:31:41] Обрабатываем страницу 12/15 для запроса 'Инженер по охране труда'
+[10:31:42] Со страницы 12 получено 100 вакансий
+[10:31:42] Обрабатываем страницу 13/15 для запроса 'Инженер по охране труда'
+[10:31:43] Со страницы 13 получено 100 вакансий
+[10:31:43] Обрабатываем страницу 14/15 для запроса 'Инженер по охране труда'
+[10:31:44] Со страницы 14 получено 100 вакансий
+[10:31:44] Обрабатываем страницу 15/15 для запроса 'Инженер по охране труда'
+[10:31:45] Со страницы 15 получено 55 вакансий
+[10:31:45] Завершен поиск по запросу 'Инженер по охране труда'. Собрано 1455 вакансий
+[10:31:45] Из 1455 вакансий, 1455 уникальных
+[10:31:45] 
+--- Запрос 2/2: 'Специалист по охране труда' ---
+[10:31:45] Начинаем поиск по запросу: 'Специалист по охране труда'
+[10:31:45] Регионы поиска: 1, 1002
+[10:31:46] По запросу 'Специалист по охране труда' найдено 1389 вакансий на 14 страницах
+[10:31:46] Обрабатываем страницу 1/14 для запроса 'Специалист по охране труда'
+[10:31:46] Со страницы 1 получено 100 вакансий
+[10:31:46] Обрабатываем страницу 2/14 для запроса 'Специалист по охране труда'
+[10:31:47] Со страницы 2 получено 100 вакансий
+[10:31:47] Обрабатываем страницу 3/14 для запроса 'Специалист по охране труда'
+[10:31:48] Со страницы 3 получено 100 вакансий
+[10:31:48] Обрабатываем страницу 4/14 для запроса 'Специалист по охране труда'
+[10:31:49] Со страницы 4 получено 100 вакансий
+[10:31:49] Обрабатываем страницу 5/14 для запроса 'Специалист по охране труда'
+[10:31:50] Со страницы 5 получено 100 вакансий
+[10:31:50] Обрабатываем страницу 6/14 для запроса 'Специалист по охране труда'
+[10:31:51] Со страницы 6 получено 100 вакансий
+[10:31:52] Обрабатываем страницу 7/14 для запроса 'Специалист по охране труда'
+[10:31:52] Со страницы 7 получено 100 вакансий
+[10:31:53] Обрабатываем страницу 8/14 для запроса 'Специалист по охране труда'
+[10:31:54] Со страницы 8 получено 100 вакансий
+[10:31:54] Обрабатываем страницу 9/14 для запроса 'Специалист по охране труда'
+[10:31:55] Со страницы 9 получено 100 вакансий
+[10:31:55] Обрабатываем страницу 10/14 для запроса 'Специалист по охране труда'
+[10:31:56] Со страницы 10 получено 100 вакансий
+[10:31:56] Обрабатываем страницу 11/14 для запроса 'Специалист по охране труда'
+[10:31:57] Со страницы 11 получено 100 вакансий
+[10:31:57] Обрабатываем страницу 12/14 для запроса 'Специалист по охране труда'
+[10:31:58] Со страницы 12 получено 100 вакансий
+[10:31:58] Обрабатываем страницу 13/14 для запроса 'Специалист по охране труда'
+[10:31:59] Со страницы 13 получено 100 вакансий
+[10:31:59] Обрабатываем страницу 14/14 для запроса 'Специалист по охране труда'
+[10:32:00] Со страницы 14 получено 89 вакансий
+[10:32:01] Завершен поиск по запросу 'Специалист по охране труда'. Собрано 1389 вакансий
+[10:32:01] Из 1389 вакансий, 646 уникальных
+[10:32:01] Исключено 743 дубликатов
+[10:32:01] 
+Всего собрано уникальных вакансий: 2101
+[10:32:01] Начинаем обработку 2101 вакансий
+[21/Aug/2025 10:32:02] "GET /scripts/run/11/status/ HTTP/1.1" 200 144
+[21/Aug/2025 10:32:04] "GET /scripts/run/11/status/ HTTP/1.1" 200 144
+[21/Aug/2025 10:32:06] "GET /scripts/run/11/status/ HTTP/1.1" 200 144
+[21/Aug/2025 10:32:08] "GET /scripts/run/11/status/ HTTP/1.1" 200 144
+[21/Aug/2025 10:32:10] "GET /scripts/run/11/status/ HTTP/1.1" 200 144
+[21/Aug/2025 10:32:12] "GET /scripts/run/11/status/ HTTP/1.1" 200 144
+[21/Aug/2025 10:32:14] "GET /scripts/run/11/status/ HTTP/1.1" 200 144
+[21/Aug/2025 10:32:16] "GET /scripts/run/11/status/ HTTP/1.1" 200 144
+[21/Aug/2025 10:32:18] "GET /scripts/run/11/status/ HTTP/1.1" 200 144
+[21/Aug/2025 10:32:20] "GET /scripts/run/11/status/ HTTP/1.1" 200 144
+[21/Aug/2025 10:32:22] "GET /scripts/run/11/status/ HTTP/1.1" 200 183
+[21/Aug/2025 10:32:26] "GET /scripts/1/ HTTP/1.1" 200 38936
+[21/Aug/2025 10:32:37] "GET / HTTP/1.1" 200 28195
+[21/Aug/2025 10:32:42] "GET /scripts/ HTTP/1.1" 200 24343
+[21/Aug/2025 10:32:45] "GET /scripts/ HTTP/1.1" 200 24343
+[21/Aug/2025 10:32:47] "GET / HTTP/1.1" 200 28195
+[21/Aug/2025 10:32:55] "GET /admin/ HTTP/1.1" 200 13274
+[21/Aug/2025 10:32:55] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[21/Aug/2025 10:32:55] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[21/Aug/2025 10:32:55] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[21/Aug/2025 10:32:55] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[21/Aug/2025 10:32:55] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[21/Aug/2025 10:32:55] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[21/Aug/2025 10:32:55] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[21/Aug/2025 10:32:55] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[21/Aug/2025 10:32:55] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+[21/Aug/2025 10:32:55] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[21/Aug/2025 10:32:57] "GET /admin/scripts/script/ HTTP/1.1" 200 17928
+[21/Aug/2025 10:32:57] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[21/Aug/2025 10:32:57] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[21/Aug/2025 10:32:57] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[21/Aug/2025 10:32:57] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[21/Aug/2025 10:32:57] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[21/Aug/2025 10:32:57] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[21/Aug/2025 10:32:57] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[21/Aug/2025 10:32:57] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[21/Aug/2025 10:32:57] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:32:57] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[21/Aug/2025 10:32:57] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[21/Aug/2025 10:32:57] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[21/Aug/2025 10:32:57] "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[21/Aug/2025 10:32:57] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[21/Aug/2025 10:32:57] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+[21/Aug/2025 10:32:57] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+[21/Aug/2025 10:33:12] "GET /admin/scripts/script/2/change/ HTTP/1.1" 200 26118
+[21/Aug/2025 10:33:12] "GET /static/admin/js/SelectBox.js HTTP/1.1" 304 0
+[21/Aug/2025 10:33:12] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[21/Aug/2025 10:33:12] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[21/Aug/2025 10:33:12] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+[21/Aug/2025 10:33:12] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:33:12] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[21/Aug/2025 10:33:12] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[21/Aug/2025 10:33:12] "GET /static/admin/img/selector-icons.svg HTTP/1.1" 304 0
+[21/Aug/2025 10:33:20] "POST /admin/scripts/script/2/change/ HTTP/1.1" 302 0
+[21/Aug/2025 10:33:20] "GET /admin/scripts/script/ HTTP/1.1" 200 18231
+[21/Aug/2025 10:33:20] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:33:22] "GET / HTTP/1.1" 200 28195
+[21/Aug/2025 10:33:24] "GET / HTTP/1.1" 200 28195
+[21/Aug/2025 10:33:25] "GET /scripts/ HTTP/1.1" 200 24343
+[21/Aug/2025 10:33:30] "GET / HTTP/1.1" 200 28195
+[21/Aug/2025 10:33:33] "GET /admin/ HTTP/1.1" 200 13358
+[21/Aug/2025 10:33:35] "GET /admin/scripts/script/ HTTP/1.1" 200 17926
+[21/Aug/2025 10:33:36] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:33:37] "GET /admin/scripts/script/2/change/ HTTP/1.1" 200 26136
+[21/Aug/2025 10:33:37] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:33:49] "GET /admin/scripts/script/ HTTP/1.1" 200 17926
+[21/Aug/2025 10:33:49] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:33:50] "GET /admin/scripts/script/1/change/ HTTP/1.1" 200 26150
+[21/Aug/2025 10:33:50] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:34:35] "GET / HTTP/1.1" 200 28195
+[21/Aug/2025 10:34:38] "GET / HTTP/1.1" 200 28195
+[21/Aug/2025 10:34:43] "GET /scripts/ HTTP/1.1" 200 24343
+[21/Aug/2025 10:34:45] "GET /scripts/1/ HTTP/1.1" 200 38936
+[21/Aug/2025 10:35:24] "GET /scripts/run/11/vacancies/?filter=new HTTP/1.1" 200 145661
+[21/Aug/2025 10:37:25] "GET /admin/scripts/script/1/change/ HTTP/1.1" 200 26150
+[21/Aug/2025 10:37:25] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:37:28] "GET /scripts/1/ HTTP/1.1" 200 38936
+[21/Aug/2025 10:37:31] "GET / HTTP/1.1" 200 28195
+[21/Aug/2025 10:37:36] "GET /scripts/ HTTP/1.1" 200 24343
+[21/Aug/2025 10:37:38] "GET /scripts/1/ HTTP/1.1" 200 38936
+[21/Aug/2025 10:37:58] "GET /scripts/run/11/vacancies/?filter=existing HTTP/1.1" 200 106183
+[21/Aug/2025 10:38:03] "GET /scripts/run/11/vacancies/?filter=new HTTP/1.1" 200 145661
+[21/Aug/2025 10:38:04] "GET /scripts/run/11/vacancies/ HTTP/1.1" 200 145655
+[21/Aug/2025 10:38:06] "GET /scripts/ HTTP/1.1" 200 24343
+[21/Aug/2025 10:38:08] "GET /scripts/1/ HTTP/1.1" 200 38936
+[21/Aug/2025 10:38:20] "GET /admin/scripts/vacancy/ HTTP/1.1" 200 423741
+[21/Aug/2025 10:38:20] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+/var/www/scriptshub/Scripts-Hub/vacancy_parser/scripts/parser.py changed, reloading.
+[10:32:01] Обработано 50/2101 вакансий
+[10:32:01] Обработано 100/2101 вакансий
+[10:32:02] Обработано 150/2101 вакансий
+[10:32:02] Обработано 200/2101 вакансий
+[10:32:03] Обработано 250/2101 вакансий
+[10:32:03] Обработано 300/2101 вакансий
+[10:32:04] Обработано 350/2101 вакансий
+[10:32:04] Обработано 400/2101 вакансий
+[10:32:05] Обработано 450/2101 вакансий
+[10:32:05] Обработано 500/2101 вакансий
+[10:32:06] Обработано 550/2101 вакансий
+[10:32:06] Обработано 600/2101 вакансий
+[10:32:07] Обработано 650/2101 вакансий
+[10:32:07] Обработано 700/2101 вакансий
+[10:32:08] Обработано 750/2101 вакансий
+[10:32:08] Обработано 800/2101 вакансий
+[10:32:09] Обработано 850/2101 вакансий
+[10:32:09] Обработано 900/2101 вакансий
+[10:32:10] Обработано 950/2101 вакансий
+[10:32:10] Обработано 1000/2101 вакансий
+[10:32:11] Обработано 1050/2101 вакансий
+[10:32:11] Обработано 1100/2101 вакансий
+[10:32:12] Обработано 1150/2101 вакансий
+[10:32:12] Обработано 1200/2101 вакансий
+[10:32:13] Обработано 1250/2101 вакансий
+[10:32:13] Обработано 1300/2101 вакансий
+[10:32:14] Обработано 1350/2101 вакансий
+[10:32:14] Обработано 1400/2101 вакансий
+[10:32:15] Обработано 1450/2101 вакансий
+[10:32:15] Обработано 1500/2101 вакансий
+[10:32:16] Обработано 1550/2101 вакансий
+[10:32:16] Обработано 1600/2101 вакансий
+[10:32:17] Обработано 1650/2101 вакансий
+[10:32:17] Обработано 1700/2101 вакансий
+[10:32:18] Обработано 1750/2101 вакансий
+[10:32:18] Обработано 1800/2101 вакансий
+[10:32:19] Обработано 1850/2101 вакансий
+[10:32:19] Обработано 1900/2101 вакансий
+[10:32:20] Обработано 1950/2101 вакансий
+[10:32:20] Обработано 2000/2101 вакансий
+[10:32:21] Обработано 2050/2101 вакансий
+[10:32:21] Обработано 2100/2101 вакансий
+[10:32:21] Парсинг завершен успешно!
+[10:32:21] Всего обработано: 2101
+[10:32:21] Новых вакансий: 2064
+[10:32:21] Существующих вакансий: 37
+[10:32:21] 
+Статистика по поисковым запросам:
+[10:32:21]   'Инженер по охране труда':
+[10:32:21]     Найдено в API: 1455
+[10:32:21]     Собрано: 1455
+[10:32:21]     Уникальных: 1455
+[10:32:21]     Новых: 1418
+[10:32:21]     Существующих: 37
+[10:32:21]   'Специалист по охране труда':
+[10:32:21]     Найдено в API: 1389
+[10:32:21]     Собрано: 1389
+[10:32:21]     Уникальных: 646
+[10:32:21]     Новых: 646
+[10:32:21]     Существующих: 0
+Watching for file changes with StatReloader
+[21/Aug/2025 10:38:43] "GET /scripts/ HTTP/1.1" 200 24343
+[21/Aug/2025 10:38:45] "GET /scripts/1/ HTTP/1.1" 200 38936
+[21/Aug/2025 10:38:46] "GET /scripts/run/11/vacancies/ HTTP/1.1" 200 145655
+[21/Aug/2025 10:38:51] "GET /scripts/run/11/vacancies/?filter=existing HTTP/1.1" 200 106183
+[21/Aug/2025 10:38:56] "GET /scripts/run/11/vacancies/ HTTP/1.1" 200 145655
+[21/Aug/2025 10:38:58] "GET /scripts/run/11/vacancies/?filter=existing HTTP/1.1" 200 106183
+[21/Aug/2025 10:38:58] "GET /scripts/run/11/vacancies/?filter=new HTTP/1.1" 200 145661
+[21/Aug/2025 10:38:59] "GET /scripts/run/11/vacancies/?filter=existing HTTP/1.1" 200 106183
+[21/Aug/2025 10:39:10] "GET /scripts/ HTTP/1.1" 200 24343
+[21/Aug/2025 10:39:11] "GET / HTTP/1.1" 200 28195
+[21/Aug/2025 10:39:18] "GET / HTTP/1.1" 200 28195
+[21/Aug/2025 10:39:20] "GET / HTTP/1.1" 200 28195
+[21/Aug/2025 10:39:22] "GET / HTTP/1.1" 200 28195
+[21/Aug/2025 10:39:22] "GET /scripts/ HTTP/1.1" 200 24343
+[21/Aug/2025 10:39:24] "GET / HTTP/1.1" 200 28195
+[21/Aug/2025 10:39:28] "GET /scripts/ HTTP/1.1" 200 24343
+[21/Aug/2025 10:39:30] "GET / HTTP/1.1" 200 28195
+[21/Aug/2025 10:39:36] "GET / HTTP/1.1" 200 28195
+[21/Aug/2025 10:39:57] "GET / HTTP/1.1" 200 28195
+[21/Aug/2025 10:40:07] "GET /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 562655
+[21/Aug/2025 10:40:07] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:40:19] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 983665
+[21/Aug/2025 10:40:19] "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+The number of GET/POST parameters exceeded settings.DATA_UPLOAD_MAX_NUMBER_FIELDS.
+Traceback (most recent call last):
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/http/request.py", line 572, in __init__
+    for key, value in parse_qsl(query_string, **parse_qsl_kwargs):
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/parse.py", line 812, in parse_qsl
+    raise ValueError('Max number of fields exceeded')
+ValueError: Max number of fields exceeded
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = middleware_method(
+               ^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/middleware/csrf.py", line 465, in process_view
+    self._check_token(request)
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/middleware/csrf.py", line 368, in _check_token
+    request_csrf_token = request.POST.get("csrfmiddlewaretoken", "")
+                         ^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/core/handlers/wsgi.py", line 93, in _get_post
+    self._load_post_and_files()
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/http/request.py", line 442, in _load_post_and_files
+    self._post = QueryDict(self.body, encoding="utf-8")
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/scriptshub/Scripts-Hub/vacancy_parser/venv/lib/python3.12/site-packages/django/http/request.py", line 579, in __init__
+    raise TooManyFieldsSent(
+django.core.exceptions.TooManyFieldsSent: The number of GET/POST parameters exceeded settings.DATA_UPLOAD_MAX_NUMBER_FIELDS.
+[21/Aug/2025 10:40:24] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 400 106668
+[21/Aug/2025 10:40:30] "GET /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 562655
+[21/Aug/2025 10:41:06] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 10861
+[21/Aug/2025 10:41:07] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 302 0
+[21/Aug/2025 10:41:07] "GET /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 562780
+[21/Aug/2025 10:41:07] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:43:40] "GET / HTTP/1.1" 200 28195
+Not Found: /scripts/1/
+[21/Aug/2025 10:43:41] "GET /scripts/1/ HTTP/1.1" 404 3088
+[21/Aug/2025 10:43:42] "GET / HTTP/1.1" 200 28195
+[21/Aug/2025 10:43:44] "GET /admin/ HTTP/1.1" 200 13354
+[21/Aug/2025 10:43:48] "GET /admin/scripts/vacancy/ HTTP/1.1" 200 423720
+[21/Aug/2025 10:43:48] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:43:50] "GET /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 562625
+[21/Aug/2025 10:43:50] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:43:58] "GET /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 562625
+[21/Aug/2025 10:43:58] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:44:29] "GET /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 562625
+[21/Aug/2025 10:44:29] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:44:39] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 58994
+[21/Aug/2025 10:44:41] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 302 0
+[21/Aug/2025 10:44:41] "GET /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 546976
+[21/Aug/2025 10:44:41] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:44:49] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 59767
+[21/Aug/2025 10:44:51] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 302 0
+[21/Aug/2025 10:44:52] "GET /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 528499
+[21/Aug/2025 10:44:52] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:44:56] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 58959
+[21/Aug/2025 10:45:00] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 302 0
+[21/Aug/2025 10:45:00] "GET /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 512045
+[21/Aug/2025 10:45:00] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:45:04] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 58766
+[21/Aug/2025 10:45:06] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 302 0
+[21/Aug/2025 10:45:07] "GET /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 499211
+[21/Aug/2025 10:45:07] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:45:13] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 58071
+[21/Aug/2025 10:45:15] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 302 0
+[21/Aug/2025 10:45:15] "GET /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 481004
+[21/Aug/2025 10:45:15] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:45:19] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 57227
+[21/Aug/2025 10:45:22] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 302 0
+[21/Aug/2025 10:45:22] "GET /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 464423
+[21/Aug/2025 10:45:22] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:45:31] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 56729
+[21/Aug/2025 10:45:33] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 302 0
+[21/Aug/2025 10:45:33] "GET /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 445979
+[21/Aug/2025 10:45:33] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:45:37] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 57730
+[21/Aug/2025 10:45:39] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 302 0
+[21/Aug/2025 10:45:40] "GET /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 428560
+[21/Aug/2025 10:45:40] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:45:44] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 58044
+[21/Aug/2025 10:45:46] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 302 0
+[21/Aug/2025 10:45:46] "GET /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 412449
+[21/Aug/2025 10:45:47] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:45:52] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 58132
+[21/Aug/2025 10:45:54] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 302 0
+[21/Aug/2025 10:45:54] "GET /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 393091
+[21/Aug/2025 10:45:54] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:46:00] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 57082
+[21/Aug/2025 10:46:02] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 302 0
+[21/Aug/2025 10:46:02] "GET /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 381158
+[21/Aug/2025 10:46:02] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:46:08] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 59488
+[21/Aug/2025 10:46:09] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 302 0
+[21/Aug/2025 10:46:10] "GET /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 359355
+[21/Aug/2025 10:46:10] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:46:15] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 58200
+[21/Aug/2025 10:46:17] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 302 0
+[21/Aug/2025 10:46:17] "GET /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 343424
+[21/Aug/2025 10:46:17] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:46:22] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 55715
+[21/Aug/2025 10:46:24] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 302 0
+[21/Aug/2025 10:46:24] "GET /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 325568
+[21/Aug/2025 10:46:24] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:46:28] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:46:30] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:46:30] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:46:31] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:46:31] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:46:31] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:46:32] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:46:32] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:46:39] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 57920
+[21/Aug/2025 10:46:41] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 302 0
+[21/Aug/2025 10:46:41] "GET /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 306740
+[21/Aug/2025 10:46:41] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:46:45] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 56661
+[21/Aug/2025 10:46:47] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 302 0
+[21/Aug/2025 10:46:47] "GET /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 285939
+[21/Aug/2025 10:46:48] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:46:51] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 55769
+[21/Aug/2025 10:46:53] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 302 0
+[21/Aug/2025 10:46:53] "GET /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 262828
+[21/Aug/2025 10:46:53] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:46:59] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 55167
+[21/Aug/2025 10:47:02] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 302 0
+[21/Aug/2025 10:47:02] "GET /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 248214
+[21/Aug/2025 10:47:02] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:47:06] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 57315
+[21/Aug/2025 10:47:08] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 302 0
+[21/Aug/2025 10:47:08] "GET /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 223294
+[21/Aug/2025 10:47:09] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:47:15] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 85422
+[21/Aug/2025 10:47:17] "POST /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 302 0
+[21/Aug/2025 10:47:17] "GET /admin/scripts/vacancy/?first_seen_at__day=21&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 62301
+[21/Aug/2025 10:47:17] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:47:21] "GET /admin/scripts/vacancy/?first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 174691
+[21/Aug/2025 10:47:21] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:47:23] "GET /admin/scripts/vacancy/?first_seen_at__day=20&first_seen_at__month=8&first_seen_at__year=2025 HTTP/1.1" 200 181718
+[21/Aug/2025 10:47:23] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:47:25] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:47:26] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:49:52] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:49:52] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:49:53] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:49:53] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:49:53] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:49:53] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:49:53] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:49:53] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:49:53] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:49:54] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:49:54] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:49:54] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:49:54] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:49:54] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:49:54] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:49:54] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:49:54] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:49:54] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:49:55] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:49:55] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:49:55] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:49:55] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:49:55] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:49:57] "GET /admin/ HTTP/1.1" 200 13903
+[21/Aug/2025 10:49:58] "GET /admin/scripts/script/ HTTP/1.1" 200 17926
+[21/Aug/2025 10:49:58] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:49:59] "GET /admin/scripts/script/ HTTP/1.1" 200 17926
+[21/Aug/2025 10:49:59] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:50:03] "GET /admin/scripts/vacancy/ HTTP/1.1" 200 155255
+[21/Aug/2025 10:50:03] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Aug/2025 10:50:21] "GET / HTTP/1.1" 200 28194
+[21/Aug/2025 10:50:22] "GET /scripts/ HTTP/1.1" 200 24343
+[21/Aug/2025 10:50:24] "GET /scripts/1/ HTTP/1.1" 200 33999
+[21/Aug/2025 10:50:27] "GET /scripts/run/11/vacancies/ HTTP/1.1" 200 106183
+[21/Aug/2025 10:50:29] "GET /scripts/run/11/vacancies/?filter=new HTTP/1.1" 200 19908
+[21/Aug/2025 10:50:31] "GET /scripts/run/11/vacancies/?filter=new HTTP/1.1" 200 19908
+[21/Aug/2025 10:50:31] "GET /scripts/run/11/vacancies/?filter=existing HTTP/1.1" 200 106183

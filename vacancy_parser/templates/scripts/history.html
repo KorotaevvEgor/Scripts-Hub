@@ -2,6 +2,17 @@
 
 {% block title %}История запусков - {{ block.super }}{% endblock %}
 
+{% block extra_css %}
+<style>
+.delete-btn {
+    transition: all 0.2s ease;
+}
+.delete-btn:hover {
+    transform: scale(1.1);
+}
+</style>
+{% endblock %}
+
 {% block content %}
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
     <h1 class="h2"><i class="fas fa-history me-2"></i>История запусков</h1>
@@ -29,7 +40,7 @@
                     </thead>
                     <tbody>
                         {% for run in page_obj.object_list %}
-                        <tr>
+                        <tr id="run-{{ run.id }}">
                             <td>
                                 <div>
                                     <strong>{{ run.script.name }}</strong>
@@ -110,6 +121,15 @@
                                        title="Перейти к скрипту">
                                         <i class="fas fa-cog"></i>
                                     </a>
+                                    
+                                    <!-- Кнопка удаления -->
+                                    {% if run.status != 'running' %}
+                                    <button class="btn btn-outline-danger delete-btn" 
+                                            onclick="deleteScriptRun({{ run.id }}, '{{ run.script.name|escapejs }}', '{{ run.started_at|date:"d.m.Y H:i"|escapejs }}')"
+                                            title="Удалить запуск и все его данные">
+                                        <i class="fas fa-trash"></i>
+                                    </button>
+                                    {% endif %}
                                 </div>
                             </td>
                         </tr>
@@ -241,4 +261,159 @@
     </div>
 </div>
 {% endif %}
+
+<!-- Модальное окно подтверждения удаления -->
+<div class="modal fade" id="deleteConfirmModal" tabindex="-1" aria-labelledby="deleteConfirmModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title" id="deleteConfirmModalLabel">
+                    <i class="fas fa-exclamation-triangle me-2"></i>Подтверждение удаления
+                </h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="alert alert-warning">
+                    <i class="fas fa-info-circle me-2"></i>
+                    <strong>Внимание!</strong> Это действие необратимо.
+                </div>
+                <p class="mb-3">Вы действительно хотите удалить запуск:</p>
+                <div class="bg-light p-3 rounded mb-3">
+                    <strong id="deleteScriptName">Название скрипта</strong><br>
+                    <small class="text-muted">Запущен: <span id="deleteScriptDate">дата</span></small>
+                </div>
+                <div class="text-danger">
+                    <h6><i class="fas fa-trash me-1"></i>Будут удалены:</h6>
+                    <ul class="mb-0">
+                        <li>Запись о запуске скрипта</li>
+                        <li>Все связи с найденными вакансиями</li>
+                        <li>Вакансии, которые больше не используются в других запусках</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    <i class="fas fa-times me-1"></i>Отмена
+                </button>
+                <button type="button" class="btn btn-danger" id="confirmDeleteBtn">
+                    <i class="fas fa-trash me-1"></i>Удалить
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Toast уведомления -->
+<div class="toast-container position-fixed top-0 end-0 p-3">
+    <div id="successToast" class="toast align-items-center text-white bg-success border-0" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+            <div class="toast-body">
+                <i class="fas fa-check-circle me-2"></i>
+                <span id="successMessage">Успешно удалено</span>
+            </div>
+            <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+    </div>
+    
+    <div id="errorToast" class="toast align-items-center text-white bg-danger border-0" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+            <div class="toast-body">
+                <i class="fas fa-exclamation-circle me-2"></i>
+                <span id="errorMessage">Произошла ошибка</span>
+            </div>
+            <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+let deleteRunId = null;
+
+function deleteScriptRun(runId, scriptName, scriptDate) {
+    deleteRunId = runId;
+    document.getElementById('deleteScriptName').textContent = scriptName;
+    document.getElementById('deleteScriptDate').textContent = scriptDate;
+    
+    const modal = new bootstrap.Modal(document.getElementById('deleteConfirmModal'));
+    modal.show();
+}
+
+document.getElementById('confirmDeleteBtn').addEventListener('click', function() {
+    if (!deleteRunId) return;
+    
+    const button = this;
+    button.disabled = true;
+    button.innerHTML = '<i class="fas fa-spinner fa-spin me-1"></i>Удаление...';
+    
+    // Получаем CSRF токен
+    const csrfToken = document.querySelector('[name=csrfmiddlewaretoken]')?.value || 
+                      document.querySelector('meta[name="csrf-token"]')?.getAttribute('content');
+    
+    fetch(`/scripts/run/${deleteRunId}/delete/`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'X-CSRFToken': csrfToken
+        },
+        credentials: 'same-origin'
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            // Скрываем модальное окно
+            bootstrap.Modal.getInstance(document.getElementById('deleteConfirmModal')).hide();
+            
+            // Удаляем строку из таблицы
+            const row = document.getElementById(`run-${deleteRunId}`);
+            if (row) {
+                row.style.transition = 'opacity 0.5s ease';
+                row.style.opacity = '0';
+                setTimeout(() => {
+                    row.remove();
+                    // Проверяем, остались ли строки
+                    const tbody = document.querySelector('tbody');
+                    if (tbody && tbody.children.length === 0) {
+                        location.reload(); // Перезагружаем страницу если больше нет запусков
+                    }
+                }, 500);
+            }
+            
+            // Показываем уведомление об успехе
+            document.getElementById('successMessage').textContent = data.message;
+            const successToast = new bootstrap.Toast(document.getElementById('successToast'));
+            successToast.show();
+            
+        } else {
+            // Показываем ошибку
+            document.getElementById('errorMessage').textContent = data.error;
+            const errorToast = new bootstrap.Toast(document.getElementById('errorToast'));
+            errorToast.show();
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        document.getElementById('errorMessage').textContent = 'Произошла сетевая ошибка';
+        const errorToast = new bootstrap.Toast(document.getElementById('errorToast'));
+        errorToast.show();
+    })
+    .finally(() => {
+        button.disabled = false;
+        button.innerHTML = '<i class="fas fa-trash me-1"></i>Удалить';
+        deleteRunId = null;
+    });
+});
+
+// Добавляем CSRF токен в мета-тег если его нет
+if (!document.querySelector('meta[name="csrf-token"]')) {
+    const csrfToken = '{{ csrf_token }}';
+    if (csrfToken && csrfToken !== 'NOTPROVIDED') {
+        const meta = document.createElement('meta');
+        meta.name = 'csrf-token';
+        meta.content = csrfToken;
+        document.head.appendChild(meta);
+    }
+}
+</script>
 {% endblock %}
